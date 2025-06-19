@@ -1,7 +1,32 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\CEdge_Dotnet\\cedge_dotnet\\aspdotnet_core_demos\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{79E51E1B-D94E-43A0-A9B3-381408A70F54}|HelloWorldMVC\\HelloWorldMVC.csproj|d:\\cedge_dotnet\\cedge_dotnet\\aspdotnet_core_demos\\helloworldmvc\\models\\employeevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79E51E1B-D94E-43A0-A9B3-381408A70F54}|HelloWorldMVC\\HelloWorldMVC.csproj|solutionrelative:helloworldmvc\\models\\employeevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79E51E1B-D94E-43A0-A9B3-381408A70F54}|HelloWorldMVC\\HelloWorldMVC.csproj|d:\\cedge_dotnet\\cedge_dotnet\\aspdotnet_core_demos\\helloworldmvc\\views\\home\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{79E51E1B-D94E-43A0-A9B3-381408A70F54}|HelloWorldMVC\\HelloWorldMVC.csproj|solutionrelative:helloworldmvc\\views\\home\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79E51E1B-D94E-43A0-A9B3-381408A70F54}|HelloWorldMVC\\HelloWorldMVC.csproj|d:\\cedge_dotnet\\cedge_dotnet\\aspdotnet_core_demos\\helloworldmvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79E51E1B-D94E-43A0-A9B3-381408A70F54}|HelloWorldMVC\\HelloWorldMVC.csproj|solutionrelative:helloworldmvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79E51E1B-D94E-43A0-A9B3-381408A70F54}|HelloWorldMVC\\HelloWorldMVC.csproj|d:\\cedge_dotnet\\cedge_dotnet\\aspdotnet_core_demos\\helloworldmvc\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79E51E1B-D94E-43A0-A9B3-381408A70F54}|HelloWorldMVC\\HelloWorldMVC.csproj|solutionrelative:helloworldmvc\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79E51E1B-D94E-43A0-A9B3-381408A70F54}|HelloWorldMVC\\HelloWorldMVC.csproj|d:\\cedge_dotnet\\cedge_dotnet\\aspdotnet_core_demos\\helloworldmvc\\views\\home\\createcustomer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{79E51E1B-D94E-43A0-A9B3-381408A70F54}|HelloWorldMVC\\HelloWorldMVC.csproj|solutionrelative:helloworldmvc\\views\\home\\createcustomer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79E51E1B-D94E-43A0-A9B3-381408A70F54}|HelloWorldMVC\\HelloWorldMVC.csproj|d:\\cedge_dotnet\\cedge_dotnet\\aspdotnet_core_demos\\helloworldmvc\\views\\home\\displaycustomer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{79E51E1B-D94E-43A0-A9B3-381408A70F54}|HelloWorldMVC\\HelloWorldMVC.csproj|solutionrelative:helloworldmvc\\views\\home\\displaycustomer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +34,88 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EmployeeVM.cs",
+              "DocumentMoniker": "D:\\CEdge_Dotnet\\cedge_dotnet\\aspdotnet_core_demos\\HelloWorldMVC\\Models\\EmployeeVM.cs",
+              "RelativeDocumentMoniker": "HelloWorldMVC\\Models\\EmployeeVM.cs",
+              "ToolTip": "D:\\CEdge_Dotnet\\cedge_dotnet\\aspdotnet_core_demos\\HelloWorldMVC\\Models\\EmployeeVM.cs",
+              "RelativeToolTip": "HelloWorldMVC\\Models\\EmployeeVM.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAswAwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T11:21:27.965Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\CEdge_Dotnet\\cedge_dotnet\\aspdotnet_core_demos\\HelloWorldMVC\\Views\\Home\\Create.cshtml",
+              "RelativeDocumentMoniker": "HelloWorldMVC\\Views\\Home\\Create.cshtml",
+              "ToolTip": "D:\\CEdge_Dotnet\\cedge_dotnet\\aspdotnet_core_demos\\HelloWorldMVC\\Views\\Home\\Create.cshtml",
+              "RelativeToolTip": "HelloWorldMVC\\Views\\Home\\Create.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAACIAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-19T11:20:54.147Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\CEdge_Dotnet\\cedge_dotnet\\aspdotnet_core_demos\\HelloWorldMVC\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "HelloWorldMVC\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\CEdge_Dotnet\\cedge_dotnet\\aspdotnet_core_demos\\HelloWorldMVC\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "HelloWorldMVC\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAIwCcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T11:09:53.52Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DisplayCustomer.cshtml",
+              "DocumentMoniker": "D:\\CEdge_Dotnet\\cedge_dotnet\\aspdotnet_core_demos\\HelloWorldMVC\\Views\\Home\\DisplayCustomer.cshtml",
+              "RelativeDocumentMoniker": "HelloWorldMVC\\Views\\Home\\DisplayCustomer.cshtml",
+              "ToolTip": "D:\\CEdge_Dotnet\\cedge_dotnet\\aspdotnet_core_demos\\HelloWorldMVC\\Views\\Home\\DisplayCustomer.cshtml",
+              "RelativeToolTip": "HelloWorldMVC\\Views\\Home\\DisplayCustomer.cshtml",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAABoAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-19T11:04:14.57Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CreateCustomer.cshtml",
+              "DocumentMoniker": "D:\\CEdge_Dotnet\\cedge_dotnet\\aspdotnet_core_demos\\HelloWorldMVC\\Views\\Home\\CreateCustomer.cshtml",
+              "RelativeDocumentMoniker": "HelloWorldMVC\\Views\\Home\\CreateCustomer.cshtml",
+              "ToolTip": "D:\\CEdge_Dotnet\\cedge_dotnet\\aspdotnet_core_demos\\HelloWorldMVC\\Views\\Home\\CreateCustomer.cshtml",
+              "RelativeToolTip": "HelloWorldMVC\\Views\\Home\\CreateCustomer.cshtml",
+              "ViewState": "AgIAABkAAAAAAAAAAAAAACYAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-19T11:00:41.316Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "D:\\CEdge_Dotnet\\cedge_dotnet\\aspdotnet_core_demos\\HelloWorldMVC\\Models\\Customer.cs",
+              "RelativeDocumentMoniker": "HelloWorldMVC\\Models\\Customer.cs",
+              "ToolTip": "D:\\CEdge_Dotnet\\cedge_dotnet\\aspdotnet_core_demos\\HelloWorldMVC\\Models\\Customer.cs",
+              "RelativeToolTip": "HelloWorldMVC\\Models\\Customer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T10:55:52.644Z",
+              "EditorCaption": ""
             }
           ]
         }

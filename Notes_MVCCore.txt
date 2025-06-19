@@ -58,4 +58,84 @@ Client-side methods:-
 -simple data with name and value
 
 
+====================================Day2==============================
+----using scaffolding and default view templates for CRUD operations
+
+
+ViewModel:-  This model is used as per view requirement which may not map one-to-one with the application entity models
+
+Model:- Employee (Ecode,Ename,Salary,Deptid)
+
+	[ViewModel(Ecode,Ename,Salary,List<string> Dnames)]
+
+View:--ViewModel
+
+=======================Working with different HTML controls in MVC Razor syntaxes===================
+ 
+Model:
+ public class Customer
+ {
+     public int Id { get; set; }
+     public string CustName { get; set; }
+     public string Gender { get; set; }
+     public List<string> Hobbies { get; set; }
+ }
+
+1) Radio Buttons
+<div class="form-group">
+     <label asp-for="Gender" class="control-label"></label>
+     <input type="radio" value="M" name="Gender" /> Male
+     <input type="radio" value="F" name="Gender" /> Female
+     <span asp-validation-for="Gender" class="text-danger"></span>
+ </div>
+
+2) Checkboxes
+ <div class="form-group">
+     <label asp-for="Hobbies" class="control-label"></label>
+     @foreach (var item in Model.Hobbies)
+     {
+         <input type="checkbox" name="hobbies" value="@item"/>@item
+     }
+     <span asp-validation-for="Hobbies" class="text-danger"></span>
+ </div>
+
+
+3) DropdownList:-
+Model:
+public class EmployeeVM
+{
+    public int Ecode {  get; set; }
+    public string Ename { get; set; }
+    public int Salary {  get; set; }
+    public int Deptid { get; set; }
+
+    public List<SelectListItem> DeptIds { get; set; }
+}
+
+//Model instance passed to view for default values:
+var vm = new EmployeeVM
+{
+    DeptIds =new  List<SelectListItem>
+    {
+        new SelectListItem { Text = "Account", Value = "201" },
+        new SelectListItem { Text = "Admin", Value = "202" },
+        new SelectListItem { Text = "Sales", Value = "203" }
+    } 
+};
+
+//View design for DropdwonList:
+
+                <select asp-for="Deptid" asp-items="@Model.DeptIds"></select>
+OR
+                @Html.DropDownListFor(Model=>Model.Deptid,Model.DeptIds,new {@class="form-control"})
+ 
+
+
+
+
+
+
+
+
+
 

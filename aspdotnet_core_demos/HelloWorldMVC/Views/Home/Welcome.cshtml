@@ -43,9 +43,9 @@
                 @Html.DisplayFor(modelItem => item.Deptid)
             </td>
             <td>
-                @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
-                @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
-                @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+                    @Html.ActionLink("Edit", "Edit", new { id=item.Ecode }) |
+                    @Html.ActionLink("Details", "Details", new { id = item.Ecode }) |
+                    @Html.ActionLink("Delete", "Delete", new { id = item.Ecode })
             </td>
         </tr>
 }

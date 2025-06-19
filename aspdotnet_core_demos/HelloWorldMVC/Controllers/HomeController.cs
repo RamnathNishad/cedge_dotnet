@@ -2,6 +2,7 @@ using HelloWorldMVC.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 using HelloWorldMVC.Models;
+using Microsoft.AspNetCore.Mvc.Rendering;
 
 namespace HelloWorldMVC.Controllers
 {
@@ -30,13 +31,115 @@ namespace HelloWorldMVC.Controllers
         public IActionResult Welcome()
         {
             //model
-            var lstEmps = new List<Employee>
-            {
-                new Employee{Ecode=101,Ename="Ravi",Salary=1111,Deptid=201},
-                new Employee{Ecode=102,Ename="Rahul",Salary=2222,Deptid=202},
-                new Employee{Ecode=103,Ename="Rohit",Salary=3333,Deptid=203}
-            };
+            var lstEmps = Employee.Employees;
             return View(lstEmps);
+        }
+
+        [HttpGet]
+        public IActionResult Create()
+        {
+            var vm = new EmployeeVM
+            {
+                DeptIds =new  List<SelectListItem>
+                {
+                    new SelectListItem { Text = "Account", Value = "201" },
+                    new SelectListItem { Text = "Admin", Value = "202" },
+                    new SelectListItem { Text = "Sales", Value = "203" }
+                } 
+            };
+            return View(vm);
+        }
+
+        [HttpPost]
+        public IActionResult Create(Employee employee)
+        {
+            Employee.Employees.Add(employee);
+            return RedirectToAction("Welcome");
+        }
+
+
+        [HttpGet]
+        public IActionResult Delete(int id)
+        {
+            //delete the record by id
+            var emp = Employee.Employees.Find(e=>e.Ecode==id);
+
+            if (emp != null)
+            {
+                //display delete confirmation form
+                return View("ConfirmDelete",emp);
+            }
+            return RedirectToAction("Welcome");
+        }
+
+        [HttpGet]
+        public IActionResult DeleteById(int id)
+        {
+            //delete the record by id
+            var emp = Employee.Employees.Find(e => e.Ecode == id);
+
+            if (emp != null)
+            {
+                //delete the record
+                Employee.Employees.Remove(emp);
+            }
+            return RedirectToAction("Welcome");
+        }
+
+        [HttpGet]
+        public IActionResult Details(int id)
+        {
+            //find the record by id
+            var emp = Employee.Employees.Find(e => e.Ecode == id);
+
+            if (emp != null)
+            {
+                return View(emp);
+            }
+            return RedirectToAction("Welcome");
+        }
+
+        [HttpGet]
+        public IActionResult Edit(int id)
+        {
+            //find the record by id for edit
+            var emp = Employee.Employees.Find(e => e.Ecode == id);
+
+            if (emp != null)
+            {
+                return View(emp);
+            }
+            return RedirectToAction("Welcome");
+        }
+
+        [HttpPost]
+        public IActionResult Edit(Employee employee)
+        {
+            //find the record for update
+            var emp=Employee.Employees.Find(o=>o.Ecode==employee.Ecode);
+            if (emp != null)
+            {
+                emp.Ename=employee.Ename;
+                emp.Salary=employee.Salary;
+                emp.Deptid=employee.Deptid;
+            }
+            return RedirectToAction("Welcome");
+        }
+
+        [HttpGet]
+        public IActionResult CreateCustomer()
+        {
+            var customer = new Customer
+            {
+                Hobbies = new List<string> { "Singing","Painting","Dancing"}
+            };
+            return View(customer);
+        }
+
+        [HttpPost]
+        public IActionResult CreateCustomer(Customer customer)
+        {
+            return View("DisplayCustomer",customer);
         }
     }
 }
