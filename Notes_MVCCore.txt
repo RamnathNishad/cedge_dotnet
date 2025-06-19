@@ -1,0 +1,61 @@
+MVC:-  Model View Controller
+
+-Design Pattern for Web Application
+
+-Design(Server Controls)<----->event handles at server using Code-behind the controls
+Seperation of Concern
+TextBox(t2)------------>event_click_t1(some task)
+
+Design --->View(input/output)--->Html
+Model:----Data and Business logic
+Controller:---Request procession
+
+Request------->Controller------>Action Method--------> Response[(View=Html+CS+Data(Model)]
+---Razor View Engine------>
+View file extension .cshtml
+
+
+===================Types of Views========================
+1) Weakly-typed view:- No Model is binded with the view
+
+2) Stronlgy-typed view:- Model binded with the view
+
+
+==============State management in ASP.NET MVC=========================
+Passing data from action to views and also across controller actions while navigation
+Server-side methods:-
+1) ViewData:- is used to pass data from action to its view not to other action/view. It is a key/value pair data like Dictionary object.
+-Requires type-casting while accessing
+
+2) ViewBag:- It's scope and life-time is same like ViewData but it is of dynamic type
+-does not requires type-casting while accessing
+-No intelligence will be provided and operation will be resolved at runtime which may give errors if not compatible.
+
+3) TempData:- It is accessible across controllers also.
+-Store and access using key/value pair
+-Needs type-casting before use
+-Gets removed from the memory as soon as it is accessed
+
+Action1(TempData)-------->View1(TempData)------->Controller2/Action2/View2(TempData)
+-TempData.Keep(k) ----retain the specified tempdata
+-TempData.Keep()   ----retain all the tempdata
+
+4) Session:- It is user-session specific data that is accessible throughout the application anywhere.
+-In ASP.Net core, session is NOT by default available, we need to configure in Program.cs file to use it.
+
+
+Client-side methods:-
+5) Cookies:- These are text files maintained at client-machine by the server for read and write.
+-less secure at client-machine
+-text-based data only , can't store object
+-size limitations , max 4KB
+-key/value pair
+
+6) Querystring:- Data to be passed is added in the url after:
+	 http://localhost/Home/Index?x=100&y=200 
+
+-client-side in the browser url, data is visible
+-simple data with name and value
+
+
+

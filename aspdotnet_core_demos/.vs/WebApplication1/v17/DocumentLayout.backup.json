@@ -1,0 +1,228 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\cedge\\WebApplication1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{79E51E1B-D94E-43A0-A9B3-381408A70F54}|HelloWorldMVC\\HelloWorldMVC.csproj|d:\\cedge\\webapplication1\\helloworldmvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79E51E1B-D94E-43A0-A9B3-381408A70F54}|HelloWorldMVC\\HelloWorldMVC.csproj|solutionrelative:helloworldmvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79E51E1B-D94E-43A0-A9B3-381408A70F54}|HelloWorldMVC\\HelloWorldMVC.csproj|d:\\cedge\\webapplication1\\helloworldmvc\\views\\cookies\\firstpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{79E51E1B-D94E-43A0-A9B3-381408A70F54}|HelloWorldMVC\\HelloWorldMVC.csproj|solutionrelative:helloworldmvc\\views\\cookies\\firstpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79E51E1B-D94E-43A0-A9B3-381408A70F54}|HelloWorldMVC\\HelloWorldMVC.csproj|d:\\cedge\\webapplication1\\helloworldmvc\\views\\cookies\\secondpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{79E51E1B-D94E-43A0-A9B3-381408A70F54}|HelloWorldMVC\\HelloWorldMVC.csproj|solutionrelative:helloworldmvc\\views\\cookies\\secondpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79E51E1B-D94E-43A0-A9B3-381408A70F54}|HelloWorldMVC\\HelloWorldMVC.csproj|d:\\cedge\\webapplication1\\helloworldmvc\\controllers\\cookiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79E51E1B-D94E-43A0-A9B3-381408A70F54}|HelloWorldMVC\\HelloWorldMVC.csproj|solutionrelative:helloworldmvc\\controllers\\cookiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79E51E1B-D94E-43A0-A9B3-381408A70F54}|HelloWorldMVC\\HelloWorldMVC.csproj|d:\\cedge\\webapplication1\\helloworldmvc\\views\\cookies\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{79E51E1B-D94E-43A0-A9B3-381408A70F54}|HelloWorldMVC\\HelloWorldMVC.csproj|solutionrelative:helloworldmvc\\views\\cookies\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79E51E1B-D94E-43A0-A9B3-381408A70F54}|HelloWorldMVC\\HelloWorldMVC.csproj|d:\\cedge\\webapplication1\\helloworldmvc\\views\\cookies\\display.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{79E51E1B-D94E-43A0-A9B3-381408A70F54}|HelloWorldMVC\\HelloWorldMVC.csproj|solutionrelative:helloworldmvc\\views\\cookies\\display.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79E51E1B-D94E-43A0-A9B3-381408A70F54}|HelloWorldMVC\\HelloWorldMVC.csproj|d:\\cedge\\webapplication1\\helloworldmvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79E51E1B-D94E-43A0-A9B3-381408A70F54}|HelloWorldMVC\\HelloWorldMVC.csproj|solutionrelative:helloworldmvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79E51E1B-D94E-43A0-A9B3-381408A70F54}|HelloWorldMVC\\HelloWorldMVC.csproj|d:\\cedge\\webapplication1\\helloworldmvc\\views\\sample\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{79E51E1B-D94E-43A0-A9B3-381408A70F54}|HelloWorldMVC\\HelloWorldMVC.csproj|solutionrelative:helloworldmvc\\views\\sample\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79E51E1B-D94E-43A0-A9B3-381408A70F54}|HelloWorldMVC\\HelloWorldMVC.csproj|d:\\cedge\\webapplication1\\helloworldmvc\\controllers\\samplecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79E51E1B-D94E-43A0-A9B3-381408A70F54}|HelloWorldMVC\\HelloWorldMVC.csproj|solutionrelative:helloworldmvc\\controllers\\samplecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79E51E1B-D94E-43A0-A9B3-381408A70F54}|HelloWorldMVC\\HelloWorldMVC.csproj|d:\\cedge\\webapplication1\\helloworldmvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{79E51E1B-D94E-43A0-A9B3-381408A70F54}|HelloWorldMVC\\HelloWorldMVC.csproj|solutionrelative:helloworldmvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79E51E1B-D94E-43A0-A9B3-381408A70F54}|HelloWorldMVC\\HelloWorldMVC.csproj|d:\\cedge\\webapplication1\\helloworldmvc\\views\\home\\welcome.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{79E51E1B-D94E-43A0-A9B3-381408A70F54}|HelloWorldMVC\\HelloWorldMVC.csproj|solutionrelative:helloworldmvc\\views\\home\\welcome.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79E51E1B-D94E-43A0-A9B3-381408A70F54}|HelloWorldMVC\\HelloWorldMVC.csproj|d:\\cedge\\webapplication1\\helloworldmvc\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79E51E1B-D94E-43A0-A9B3-381408A70F54}|HelloWorldMVC\\HelloWorldMVC.csproj|solutionrelative:helloworldmvc\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 11,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SecondPage.cshtml",
+              "DocumentMoniker": "D:\\cedge\\WebApplication1\\HelloWorldMVC\\Views\\Cookies\\SecondPage.cshtml",
+              "RelativeDocumentMoniker": "HelloWorldMVC\\Views\\Cookies\\SecondPage.cshtml",
+              "ToolTip": "D:\\cedge\\WebApplication1\\HelloWorldMVC\\Views\\Cookies\\SecondPage.cshtml",
+              "RelativeToolTip": "HelloWorldMVC\\Views\\Cookies\\SecondPage.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-18T11:48:29.894Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FirstPage.cshtml",
+              "DocumentMoniker": "D:\\cedge\\WebApplication1\\HelloWorldMVC\\Views\\Cookies\\FirstPage.cshtml",
+              "RelativeDocumentMoniker": "HelloWorldMVC\\Views\\Cookies\\FirstPage.cshtml",
+              "ToolTip": "D:\\cedge\\WebApplication1\\HelloWorldMVC\\Views\\Cookies\\FirstPage.cshtml",
+              "RelativeToolTip": "HelloWorldMVC\\Views\\Cookies\\FirstPage.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAkAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-18T11:48:15.069Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Display.cshtml",
+              "DocumentMoniker": "D:\\cedge\\WebApplication1\\HelloWorldMVC\\Views\\Cookies\\Display.cshtml",
+              "RelativeDocumentMoniker": "HelloWorldMVC\\Views\\Cookies\\Display.cshtml",
+              "ToolTip": "D:\\cedge\\WebApplication1\\HelloWorldMVC\\Views\\Cookies\\Display.cshtml",
+              "RelativeToolTip": "HelloWorldMVC\\Views\\Cookies\\Display.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-18T11:28:24.787Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\cedge\\WebApplication1\\HelloWorldMVC\\Views\\Cookies\\Index.cshtml",
+              "RelativeDocumentMoniker": "HelloWorldMVC\\Views\\Cookies\\Index.cshtml",
+              "ToolTip": "D:\\cedge\\WebApplication1\\HelloWorldMVC\\Views\\Cookies\\Index.cshtml",
+              "RelativeToolTip": "HelloWorldMVC\\Views\\Cookies\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-18T11:28:11.704Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CookiesController.cs",
+              "DocumentMoniker": "D:\\cedge\\WebApplication1\\HelloWorldMVC\\Controllers\\CookiesController.cs",
+              "RelativeDocumentMoniker": "HelloWorldMVC\\Controllers\\CookiesController.cs",
+              "ToolTip": "D:\\cedge\\WebApplication1\\HelloWorldMVC\\Controllers\\CookiesController.cs",
+              "RelativeToolTip": "HelloWorldMVC\\Controllers\\CookiesController.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAmwCQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T11:27:42.352Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\cedge\\WebApplication1\\HelloWorldMVC\\Views\\Sample\\Index.cshtml",
+              "RelativeDocumentMoniker": "HelloWorldMVC\\Views\\Sample\\Index.cshtml",
+              "ToolTip": "D:\\cedge\\WebApplication1\\HelloWorldMVC\\Views\\Sample\\Index.cshtml",
+              "RelativeToolTip": "HelloWorldMVC\\Views\\Sample\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-18T11:00:51.796Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "SampleController.cs",
+              "DocumentMoniker": "D:\\cedge\\WebApplication1\\HelloWorldMVC\\Controllers\\SampleController.cs",
+              "RelativeDocumentMoniker": "HelloWorldMVC\\Controllers\\SampleController.cs",
+              "ToolTip": "D:\\cedge\\WebApplication1\\HelloWorldMVC\\Controllers\\SampleController.cs",
+              "RelativeToolTip": "HelloWorldMVC\\Controllers\\SampleController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T11:00:30.135Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Welcome.cshtml",
+              "DocumentMoniker": "D:\\cedge\\WebApplication1\\HelloWorldMVC\\Views\\Home\\Welcome.cshtml",
+              "RelativeDocumentMoniker": "HelloWorldMVC\\Views\\Home\\Welcome.cshtml",
+              "ToolTip": "D:\\cedge\\WebApplication1\\HelloWorldMVC\\Views\\Home\\Welcome.cshtml",
+              "RelativeToolTip": "HelloWorldMVC\\Views\\Home\\Welcome.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-18T10:02:16.117Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\cedge\\WebApplication1\\HelloWorldMVC\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "HelloWorldMVC\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\cedge\\WebApplication1\\HelloWorldMVC\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "HelloWorldMVC\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-18T09:57:00.521Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "D:\\cedge\\WebApplication1\\HelloWorldMVC\\Models\\Employee.cs",
+              "RelativeDocumentMoniker": "HelloWorldMVC\\Models\\Employee.cs",
+              "ToolTip": "D:\\cedge\\WebApplication1\\HelloWorldMVC\\Models\\Employee.cs",
+              "RelativeToolTip": "HelloWorldMVC\\Models\\Employee.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T09:51:40.876Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\cedge\\WebApplication1\\HelloWorldMVC\\Program.cs",
+              "RelativeDocumentMoniker": "HelloWorldMVC\\Program.cs",
+              "ToolTip": "D:\\cedge\\WebApplication1\\HelloWorldMVC\\Program.cs",
+              "RelativeToolTip": "HelloWorldMVC\\Program.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAywCUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T09:42:11.519Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\cedge\\WebApplication1\\HelloWorldMVC\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "HelloWorldMVC\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\cedge\\WebApplication1\\HelloWorldMVC\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "HelloWorldMVC\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAAAkAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T09:37:07.216Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
