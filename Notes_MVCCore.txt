@@ -129,6 +129,95 @@ var vm = new EmployeeVM
 OR
                 @Html.DropDownListFor(Model=>Model.Deptid,Model.DeptIds,new {@class="form-control"})
  
+=================================Day3================================
+Views:-
+Types of views based on usage and sharing:-
+Partial Views:- These are the veiw which are not directly used but we share them across multiple views.
+usage: if there are common design UI is there in multiple views so instead of desiging in each views, we just designn a partial view with common UI and use it in all the views wherever it is needed.
+adv:
+-saves time as it is designed only once and shared across
+-maintenance also is centralized so it maintains the consistent look and feel in all views.
+- if a view is very complex then we can split the main view into n number of partial views and this splitting can go further till we get simpler view to handle.
+
+
+* Shared views are kept inside the default location folder "Shared" 
+* Its name starts with underscore(_viewname.cshtml)
+
+
+How to use this partial view inside the main or parent view.
+-Html.Partial("_child"):- It returns HtmlContent object of the child view to the parent view
+-Html.RenderPartial("_child"):- returns void so it directly embeds the child view into the parent view
+
+*If we don't pass model instance to the strongly-typed views then by default parent model instance is passed else
+we can also pass manually 
+	Html.RenderPartial("_childView",model_instance)
+
+
+*_ViewStart.cshtml:- It is a special view which is automatically called before each view. So it can be used for any common statements which are needed across all views. 
+for e.g. If i want to link all the views with layout i can do it in this _ViewStart.cshtml
+
+* _Layout.cshtml:- It is the layout view which decides what will the page structure of the views using that layout.
+
+we link layout with the view using :
+	Layout="_Layout";  //default location is Shared folder else relative path is needed
+
+*we can always overwrite the layout inside the view by putting null if u don't want layout or different layout
+	@{
+		Layout=null;
+
+		//OR
+		Layout="_L2"
+	}
+
+* @RenderBody() :- It is used inside the Layout to specify the html of the view to be embedded as per design required.
+-There can be only one RenderBody() with no parameter
+
+* We can define Sections in View pages and call them using @RenderSection("section_name",false)
+	where "section_name" should be defined in the view:
+	@section s1{
+		---html statements---
+	}
+*RenderBody() uses the html of the view page which is not defined with any section name.
+
+=======================Model Validations======================
+We must validate the forms before posting it from client-side and also some validations may be needed at server side .
+	empty check-------> at client-side
+	email id or record exists or not can be done at server side from database
+a) Client-side validations:-
+	it is done using javascript/jquery
+
+b) Server-side validations:-
+	--it is done in the controller/action methods
+
+If the model is invalid then there is one boolean property of the object "ModelState.IsValid" that can tell u whether data is valid or invalid.
+
+* to configure validations, we can use predefined validation attributes:
+	[Required]
+	
+	[StringLength]
+
+	[Regex]
+
+
+
+
+	 
+Remote validation:- client-side validation can be done without going to server
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
 
 
 

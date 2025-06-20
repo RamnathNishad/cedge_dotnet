@@ -1,0 +1,7 @@
+﻿@model HelloWorldMVC.Models.Employee
+
+
+@Html.ActionLink("Edit", "Edit", new { id = Model.Ecode },htmlAttributes: new {@class = "btn btn-success"}) |
+@Html.ActionLink("Display", "Details", new { id = Model.Ecode }, htmlAttributes: new { @class = "btn btn-warning" }) |
+@Html.ActionLink("Delete", "Delete", new { id = Model.Ecode }, htmlAttributes: new { @class = "btn btn-danger" })
+

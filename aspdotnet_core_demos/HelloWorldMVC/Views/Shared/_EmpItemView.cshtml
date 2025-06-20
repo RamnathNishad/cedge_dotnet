@@ -1,0 +1,19 @@
+﻿@model HelloWorldMVC.Models.Employee
+
+<tr>
+    <td>
+        @Html.DisplayFor(modelItem => modelItem.Ecode)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => modelItem.Ename)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => modelItem.Salary)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => modelItem.Deptid)
+    </td>
+    <td>
+         @Html.Partial("_EmpActionView")
+    </td>
+</tr>

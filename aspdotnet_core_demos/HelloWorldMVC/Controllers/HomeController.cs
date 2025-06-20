@@ -28,6 +28,10 @@ namespace HelloWorldMVC.Controllers
             return View(emp);
         }
 
+        public IActionResult Demo()
+        {
+            return View("View");
+        }
         public IActionResult Welcome()
         {
             //model
@@ -51,10 +55,47 @@ namespace HelloWorldMVC.Controllers
         }
 
         [HttpPost]
-        public IActionResult Create(Employee employee)
+        public IActionResult Create(EmployeeVM employee)
         {
-            Employee.Employees.Add(employee);
-            return RedirectToAction("Welcome");
+            //server-side validation for dupilicate checking
+            if (IsECodeExists(employee.Ecode))
+            {
+                //duplicate error
+                ModelState.AddModelError("Ecode", "ecode already exists");
+            }
+
+
+            if (ModelState.IsValid)
+            {
+                var record = new Employee
+                {
+                    Ecode= employee.Ecode,
+                    Ename = employee.Ename,
+                    Salary = employee.Salary,
+                    Deptid = employee.Deptid
+                };
+                Employee.Employees.Add(record);
+                return RedirectToAction("Welcome");
+            }
+            else
+            {
+                employee.DeptIds = new List<SelectListItem>
+                {
+                    new SelectListItem { Text = "Account", Value = "201" },
+                    new SelectListItem { Text = "Admin", Value = "202" },
+                    new SelectListItem { Text = "Sales", Value = "203" }
+                };
+                return View(employee);
+            }           
+        }
+
+        private bool IsECodeExists(int ecode)
+        {
+            foreach (var item in Employee.Employees)
+            {
+                if(item.Ecode == ecode) return true;
+            }
+            return false;
         }
 
 
