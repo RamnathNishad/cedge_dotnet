@@ -200,10 +200,52 @@ If the model is invalid then there is one boolean property of the object "ModelS
 
 
 
+* Validation comparing with other fields i.e. cross-fields validations:
+a) using Custom Validation attribute:
 
+model level:
+	IValidationObject interface having IsValid method which is used to return true/false based on validations.
+
+
+
+b) Remote validations:- for validation asynchronously using AJAX(Asynchronous JavaScript library)
 	 
-Remote validation:- client-side validation can be done without going to server
+This will work only if Unobtrusive AJAX script is enabled.
+[Remote] attribute is to be used for the model field to be validated
 
+
+c) using a separate validation custom class. This gives u more sharing across the application.
+
+public class CheckSalary : ValidationAttribute
+
+==========================Dependency Injection==========================
+Dependency injection is a inbuilt service of ASP.NET Core which works on the principle of IoC i.e. Inversion of Control. The dependencies objects are injected into the consumer(controller) for use. This makes the application more decoupled hence we get more testability and more easier maintainability of the code.
+
+SOLID: Dependency Principle says that the higher level objects/modules should not directly depend on the lower level objects/modules rather they shud depend on abstraction i.e. interface  
+
+
+Ways of injecting instances int .NET Core:
+1) using constructor
+2) using method
+3) using properties
+
+steps for implementation:
+1) define the interface 
+2) define the dependency class 
+3) implement the interface in the class
+4) configure the dependency injection in Program.cs file 
+5) inject the instance in the application and use it 
+
+
+
+
+
+
+
+
+
+
+UI Controller------->Data Access component------>Other utility classes
 
 
 

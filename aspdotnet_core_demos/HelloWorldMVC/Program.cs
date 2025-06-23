@@ -1,3 +1,5 @@
+using HelloWorldMVC.Models;
+
 namespace HelloWorldMVC
 {
     public class Program
@@ -12,7 +14,10 @@ namespace HelloWorldMVC
             //configure session
             builder.Services.AddSession();
 
-           
+            //configure dependency injection for Calculator instance
+            builder.Services.AddSingleton<ICalculator,Calculator>();
+
+            builder.Services.AddScoped<IDemo,Demo>();
 
             var app = builder.Build();
 

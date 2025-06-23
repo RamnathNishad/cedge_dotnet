@@ -8,7 +8,17 @@ namespace HelloWorldMVC.Controllers
 {
     public class HomeController : Controller
     {
-        
+        //dependency inject using constructor
+        private readonly ICalculator calculator;
+
+        private readonly IDemo demo1,demo2;
+        public HomeController(ICalculator calculator, IDemo demo1,IDemo demo2)
+        {
+            this.calculator = calculator;
+            this.demo1 = demo1;   
+            this.demo2 = demo2;
+        }
+
         public IActionResult Index()
         {
             ViewData.Add("message", "Hello from MVC");
@@ -181,6 +191,35 @@ namespace HelloWorldMVC.Controllers
         public IActionResult CreateCustomer(Customer customer)
         {
             return View("DisplayCustomer",customer);
+        }
+
+        [AcceptVerbs("Get","Post")]
+        public IActionResult CheckSalaryRange(int salary)
+        {
+            if(salary<1000 || salary>2000)
+            {
+                return Json("salary must be between 1000 and 2000");
+            }
+
+            return Json(true); //validation passed
+        }
+
+
+
+        [HttpGet]
+        public IActionResult CreateCalc()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public IActionResult CreateCalc(int a ,int b)
+        {
+            var result = calculator.Add(a , b);
+            ViewData.Add("result", result);
+            ViewData.Add("demoId1", demo1.id);
+            ViewData.Add("demoId2", demo2.id);
+            return View("Result");
         }
     }
 }

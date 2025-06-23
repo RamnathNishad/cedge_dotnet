@@ -20,3 +20,12 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+.field-validation-error{
+    font-weight:bold;
+    background-color:yellow;
+}
+.input-validation-error{
+    border:1px solid red;
+    background-color:aqua;
+}
