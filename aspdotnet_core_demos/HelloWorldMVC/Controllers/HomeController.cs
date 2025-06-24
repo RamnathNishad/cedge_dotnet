@@ -221,5 +221,11 @@ namespace HelloWorldMVC.Controllers
             ViewData.Add("demoId2", demo2.id);
             return View("Result");
         }
+
+        [HttpGet]
+        public IActionResult Error()
+        {
+            return View();
+        }
     }
 }

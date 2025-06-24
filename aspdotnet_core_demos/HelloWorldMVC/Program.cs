@@ -1,4 +1,5 @@
 using HelloWorldMVC.Models;
+using Microsoft.CodeAnalysis.Elfie.Diagnostics;
 
 namespace HelloWorldMVC
 {
@@ -17,14 +18,21 @@ namespace HelloWorldMVC
             //configure dependency injection for Calculator instance
             builder.Services.AddSingleton<ICalculator,Calculator>();
 
-            builder.Services.AddScoped<IDemo,Demo>();
+            builder.Services.AddSingleton<IDemo,Demo>();
+
+            builder.Services.AddTransient<IMyFileLogger, FileLogger>();
+
 
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.
             if (!app.Environment.IsDevelopment())
             {
-                app.UseExceptionHandler("/Home/Error");
+                app.UseExceptionHandler("/Home/Error");                
+            }
+            else
+            {
+                app.UseDeveloperExceptionPage();
             }
             app.UseStaticFiles();
 
@@ -38,7 +46,10 @@ namespace HelloWorldMVC
 
             app.UseSession();
 
-            
+            app.UseStatusCodePagesWithReExecute("/Error/{0}");
+
+            app.UseMiddleware<GlobalExceptionHandler>();
+
             app.Run();
         }
     }

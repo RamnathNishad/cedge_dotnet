@@ -5,6 +5,6 @@
         int counter {  get; set; }
         string id { get; }
 
-        void Increment();
+        void Increment();        
     }
 }

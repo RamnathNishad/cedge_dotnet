@@ -3,32 +3,28 @@
   "WorkspaceRootPath": "D:\\CEdge_Dotnet\\cedge_dotnet\\aspdotnet_core_demos\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{79E51E1B-D94E-43A0-A9B3-381408A70F54}|HelloWorldMVC\\HelloWorldMVC.csproj|d:\\cedge_dotnet\\cedge_dotnet\\aspdotnet_core_demos\\helloworldmvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{79E51E1B-D94E-43A0-A9B3-381408A70F54}|HelloWorldMVC\\HelloWorldMVC.csproj|solutionrelative:helloworldmvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{79E51E1B-D94E-43A0-A9B3-381408A70F54}|HelloWorldMVC\\HelloWorldMVC.csproj|d:\\cedge_dotnet\\cedge_dotnet\\aspdotnet_core_demos\\helloworldmvc\\models\\filelogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79E51E1B-D94E-43A0-A9B3-381408A70F54}|HelloWorldMVC\\HelloWorldMVC.csproj|solutionrelative:helloworldmvc\\models\\filelogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{79E51E1B-D94E-43A0-A9B3-381408A70F54}|HelloWorldMVC\\HelloWorldMVC.csproj|d:\\cedge_dotnet\\cedge_dotnet\\aspdotnet_core_demos\\helloworldmvc\\controllers\\samplecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{79E51E1B-D94E-43A0-A9B3-381408A70F54}|HelloWorldMVC\\HelloWorldMVC.csproj|solutionrelative:helloworldmvc\\controllers\\samplecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{79E51E1B-D94E-43A0-A9B3-381408A70F54}|HelloWorldMVC\\HelloWorldMVC.csproj|d:\\cedge_dotnet\\cedge_dotnet\\aspdotnet_core_demos\\helloworldmvc\\views\\sample\\display.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{79E51E1B-D94E-43A0-A9B3-381408A70F54}|HelloWorldMVC\\HelloWorldMVC.csproj|solutionrelative:helloworldmvc\\views\\sample\\display.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{79E51E1B-D94E-43A0-A9B3-381408A70F54}|HelloWorldMVC\\HelloWorldMVC.csproj|d:\\cedge_dotnet\\cedge_dotnet\\aspdotnet_core_demos\\helloworldmvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79E51E1B-D94E-43A0-A9B3-381408A70F54}|HelloWorldMVC\\HelloWorldMVC.csproj|solutionrelative:helloworldmvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{79E51E1B-D94E-43A0-A9B3-381408A70F54}|HelloWorldMVC\\HelloWorldMVC.csproj|d:\\cedge_dotnet\\cedge_dotnet\\aspdotnet_core_demos\\helloworldmvc\\views\\sample\\show.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{79E51E1B-D94E-43A0-A9B3-381408A70F54}|HelloWorldMVC\\HelloWorldMVC.csproj|solutionrelative:helloworldmvc\\views\\sample\\show.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{79E51E1B-D94E-43A0-A9B3-381408A70F54}|HelloWorldMVC\\HelloWorldMVC.csproj|d:\\cedge_dotnet\\cedge_dotnet\\aspdotnet_core_demos\\helloworldmvc\\models\\imylogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79E51E1B-D94E-43A0-A9B3-381408A70F54}|HelloWorldMVC\\HelloWorldMVC.csproj|solutionrelative:helloworldmvc\\models\\imylogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{79E51E1B-D94E-43A0-A9B3-381408A70F54}|HelloWorldMVC\\HelloWorldMVC.csproj|d:\\cedge_dotnet\\cedge_dotnet\\aspdotnet_core_demos\\helloworldmvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{79E51E1B-D94E-43A0-A9B3-381408A70F54}|HelloWorldMVC\\HelloWorldMVC.csproj|solutionrelative:helloworldmvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{79E51E1B-D94E-43A0-A9B3-381408A70F54}|HelloWorldMVC\\HelloWorldMVC.csproj|d:\\cedge_dotnet\\cedge_dotnet\\aspdotnet_core_demos\\helloworldmvc\\models\\globalexceptionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79E51E1B-D94E-43A0-A9B3-381408A70F54}|HelloWorldMVC\\HelloWorldMVC.csproj|solutionrelative:helloworldmvc\\models\\globalexceptionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{79E51E1B-D94E-43A0-A9B3-381408A70F54}|HelloWorldMVC\\HelloWorldMVC.csproj|d:\\cedge_dotnet\\cedge_dotnet\\aspdotnet_core_demos\\helloworldmvc\\models\\demo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{79E51E1B-D94E-43A0-A9B3-381408A70F54}|HelloWorldMVC\\HelloWorldMVC.csproj|solutionrelative:helloworldmvc\\models\\demo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{79E51E1B-D94E-43A0-A9B3-381408A70F54}|HelloWorldMVC\\HelloWorldMVC.csproj|d:\\cedge_dotnet\\cedge_dotnet\\aspdotnet_core_demos\\helloworldmvc\\models\\idemo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{79E51E1B-D94E-43A0-A9B3-381408A70F54}|HelloWorldMVC\\HelloWorldMVC.csproj|solutionrelative:helloworldmvc\\models\\idemo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{79E51E1B-D94E-43A0-A9B3-381408A70F54}|HelloWorldMVC\\HelloWorldMVC.csproj|d:\\cedge_dotnet\\cedge_dotnet\\aspdotnet_core_demos\\helloworldmvc\\views\\sample\\displayerrors.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{79E51E1B-D94E-43A0-A9B3-381408A70F54}|HelloWorldMVC\\HelloWorldMVC.csproj|solutionrelative:helloworldmvc\\views\\sample\\displayerrors.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,75 +34,62 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Show.cshtml",
-              "DocumentMoniker": "D:\\CEdge_Dotnet\\cedge_dotnet\\aspdotnet_core_demos\\HelloWorldMVC\\Views\\Sample\\Show.cshtml",
-              "RelativeDocumentMoniker": "HelloWorldMVC\\Views\\Sample\\Show.cshtml",
-              "ToolTip": "D:\\CEdge_Dotnet\\cedge_dotnet\\aspdotnet_core_demos\\HelloWorldMVC\\Views\\Sample\\Show.cshtml",
-              "RelativeToolTip": "HelloWorldMVC\\Views\\Sample\\Show.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-23T11:42:50.668Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Display.cshtml",
-              "DocumentMoniker": "D:\\CEdge_Dotnet\\cedge_dotnet\\aspdotnet_core_demos\\HelloWorldMVC\\Views\\Sample\\Display.cshtml",
-              "RelativeDocumentMoniker": "HelloWorldMVC\\Views\\Sample\\Display.cshtml",
-              "ToolTip": "D:\\CEdge_Dotnet\\cedge_dotnet\\aspdotnet_core_demos\\HelloWorldMVC\\Views\\Sample\\Display.cshtml",
-              "RelativeToolTip": "HelloWorldMVC\\Views\\Sample\\Display.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-23T11:36:30.675Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\CEdge_Dotnet\\cedge_dotnet\\aspdotnet_core_demos\\HelloWorldMVC\\Program.cs",
-              "RelativeDocumentMoniker": "HelloWorldMVC\\Program.cs",
-              "ToolTip": "D:\\CEdge_Dotnet\\cedge_dotnet\\aspdotnet_core_demos\\HelloWorldMVC\\Program.cs*",
-              "RelativeToolTip": "HelloWorldMVC\\Program.cs*",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAywBMAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-23T11:35:41.927Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "IDemo.cs",
-              "DocumentMoniker": "D:\\CEdge_Dotnet\\cedge_dotnet\\aspdotnet_core_demos\\HelloWorldMVC\\Models\\IDemo.cs",
-              "RelativeDocumentMoniker": "HelloWorldMVC\\Models\\IDemo.cs",
-              "ToolTip": "D:\\CEdge_Dotnet\\cedge_dotnet\\aspdotnet_core_demos\\HelloWorldMVC\\Models\\IDemo.cs",
-              "RelativeToolTip": "HelloWorldMVC\\Models\\IDemo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-23T11:30:34.112Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Demo.cs",
-              "DocumentMoniker": "D:\\CEdge_Dotnet\\cedge_dotnet\\aspdotnet_core_demos\\HelloWorldMVC\\Models\\Demo.cs",
-              "RelativeDocumentMoniker": "HelloWorldMVC\\Models\\Demo.cs",
-              "ToolTip": "D:\\CEdge_Dotnet\\cedge_dotnet\\aspdotnet_core_demos\\HelloWorldMVC\\Models\\Demo.cs",
-              "RelativeToolTip": "HelloWorldMVC\\Models\\Demo.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAA4wAcAAAAVAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "FileLogger.cs",
+              "DocumentMoniker": "D:\\CEdge_Dotnet\\cedge_dotnet\\aspdotnet_core_demos\\HelloWorldMVC\\Models\\FileLogger.cs",
+              "RelativeDocumentMoniker": "HelloWorldMVC\\Models\\FileLogger.cs",
+              "ToolTip": "D:\\CEdge_Dotnet\\cedge_dotnet\\aspdotnet_core_demos\\HelloWorldMVC\\Models\\FileLogger.cs*",
+              "RelativeToolTip": "HelloWorldMVC\\Models\\FileLogger.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-23T11:30:28.503Z",
+              "WhenOpened": "2025-06-24T11:03:16.379Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IMyLogger.cs",
+              "DocumentMoniker": "D:\\CEdge_Dotnet\\cedge_dotnet\\aspdotnet_core_demos\\HelloWorldMVC\\Models\\IMyLogger.cs",
+              "RelativeDocumentMoniker": "HelloWorldMVC\\Models\\IMyLogger.cs",
+              "ToolTip": "D:\\CEdge_Dotnet\\cedge_dotnet\\aspdotnet_core_demos\\HelloWorldMVC\\Models\\IMyLogger.cs",
+              "RelativeToolTip": "HelloWorldMVC\\Models\\IMyLogger.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T11:02:41.9Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GlobalExceptionHandler.cs",
+              "DocumentMoniker": "D:\\CEdge_Dotnet\\cedge_dotnet\\aspdotnet_core_demos\\HelloWorldMVC\\Models\\GlobalExceptionHandler.cs",
+              "RelativeDocumentMoniker": "HelloWorldMVC\\Models\\GlobalExceptionHandler.cs",
+              "ToolTip": "D:\\CEdge_Dotnet\\cedge_dotnet\\aspdotnet_core_demos\\HelloWorldMVC\\Models\\GlobalExceptionHandler.cs",
+              "RelativeToolTip": "HelloWorldMVC\\Models\\GlobalExceptionHandler.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAA2wBIAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T10:00:53.619Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DisplayErrors.cshtml",
+              "DocumentMoniker": "D:\\CEdge_Dotnet\\cedge_dotnet\\aspdotnet_core_demos\\HelloWorldMVC\\Views\\Sample\\DisplayErrors.cshtml",
+              "RelativeDocumentMoniker": "HelloWorldMVC\\Views\\Sample\\DisplayErrors.cshtml",
+              "ToolTip": "D:\\CEdge_Dotnet\\cedge_dotnet\\aspdotnet_core_demos\\HelloWorldMVC\\Views\\Sample\\DisplayErrors.cshtml",
+              "RelativeToolTip": "HelloWorldMVC\\Views\\Sample\\DisplayErrors.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-24T09:56:00.479Z",
               "EditorCaption": ""
             },
             {
@@ -117,22 +100,22 @@
               "RelativeDocumentMoniker": "HelloWorldMVC\\Controllers\\SampleController.cs",
               "ToolTip": "D:\\CEdge_Dotnet\\cedge_dotnet\\aspdotnet_core_demos\\HelloWorldMVC\\Controllers\\SampleController.cs",
               "RelativeToolTip": "HelloWorldMVC\\Controllers\\SampleController.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAAABsAAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAABgAAAAAAAAAAAAuwCIAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-23T11:27:00.123Z",
+              "WhenOpened": "2025-06-24T09:23:28.782Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "D:\\CEdge_Dotnet\\cedge_dotnet\\aspdotnet_core_demos\\HelloWorldMVC\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "HelloWorldMVC\\Controllers\\HomeController.cs",
-              "ToolTip": "D:\\CEdge_Dotnet\\cedge_dotnet\\aspdotnet_core_demos\\HelloWorldMVC\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "HelloWorldMVC\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAM0AAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\CEdge_Dotnet\\cedge_dotnet\\aspdotnet_core_demos\\HelloWorldMVC\\Program.cs",
+              "RelativeDocumentMoniker": "HelloWorldMVC\\Program.cs",
+              "ToolTip": "D:\\CEdge_Dotnet\\cedge_dotnet\\aspdotnet_core_demos\\HelloWorldMVC\\Program.cs",
+              "RelativeToolTip": "HelloWorldMVC\\Program.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAcwBcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-23T11:25:33.595Z",
+              "WhenOpened": "2025-06-24T09:18:54.342Z",
               "EditorCaption": ""
             }
           ]

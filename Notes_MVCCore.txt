@@ -237,6 +237,98 @@ steps for implementation:
 5) inject the instance in the application and use it 
 
 
+Based on scope and lifetime of the object, there are 3 methods to inject:
+1) AddSingleton():- Only one instance will be maintained throughout the application.
+2) AddTransient():- For every request of the object, a new instance is created and after use it is removed from the memory. if u don't want to maintain state of the data inside the instance in subsequent calls then we shud use it.
+for e.g. logger instance and any other utility object.
+ 
+3) AddScoped():- It maintains the instance within the multiple requests of the same http context
+
+
+
+==============================Error Handling in ASP.NET Core====================
+ways of handling errors:
+1) try/catch/finally
+2) Unhandled exceptions can be handled in two environments:
+	a) Development:- It should show detailed error for developer
+	b) Production:- It should show only relevant error details not stack trace details shud not be exposed as it becomes vulnerable as errors contains lot of server information like database info etc which can be misused.
+
+3) How to handle application errors globally.
+This is used for unhandled exception across application if it occurs any part of the application even though exceptions are handled properly everywhere.
+
+It is done using middleware in the request pipeline.
+steps :
+a) Define the Global Exception handler class:
+ public class GlobalExceptionHandler
+ {
+     private readonly RequestDelegate next;
+     public GlobalExceptionHandler(RequestDelegate next)
+     {
+         this.next = next;
+     }
+     public async Task InvokeAsync(HttpContext context)
+     {
+         try
+         {
+             await next(context);
+         }
+         catch (Exception ex)
+         {
+             context.Response.StatusCode = 500;
+             context.Response.ContentType = "application/json";
+             await context.Response.WriteAsync("error:unexpected error--->"+ex.Message);
+         }
+     }
+ }
+
+b) Configure the Global error handler in the Program.cs file as Middleware
+        app.UseMiddleware<GlobalExceptionHandler>();
+
+
+4) Http Status Errors:- For this we need use another middlerware:
+i)app.UseStatusCodePages();    -----uses in-built error pages
+
+ii) app.UseStatusCodePagesWithReExecute("/Error/{0}");  ---can be programmed to use user-defined error views as per controller logic:
+ public class ErrorController : Controller
+ {
+     [Route("/Error/{statusCode}")]
+     public IActionResult Index(int statusCode)
+     {
+         switch(statusCode)
+         {
+             case 404:
+                 return View("NotFound");  //these views must be created with info as per http status errors
+             case 500:
+                 return View("InternalServerError");
+             default:
+                 return View("Error");
+         }           
+     }
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+How to inject using methods:-
+
+
+
+
+
+
+
+
 
 
 
