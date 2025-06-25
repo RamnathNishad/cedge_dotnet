@@ -1,4 +1,6 @@
+using HelloWorldMVC.Controllers;
 using HelloWorldMVC.Models;
+using Microsoft.AspNetCore.Mvc.Filters;
 using Microsoft.CodeAnalysis.Elfie.Diagnostics;
 
 namespace HelloWorldMVC
@@ -21,8 +23,7 @@ namespace HelloWorldMVC
             builder.Services.AddSingleton<IDemo,Demo>();
 
             builder.Services.AddTransient<IMyFileLogger, FileLogger>();
-
-
+            
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.

@@ -1,11 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35707.178 d17.12
+VisualStudioVersion = 17.12.35707.178
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication1", "WebApplication1\WebApplication1.csproj", "{31543D82-21ED-4220-A9C2-01416DDD87C9}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorldMVC", "HelloWorldMVC\HelloWorldMVC.csproj", "{79E51E1B-D94E-43A0-A9B3-381408A70F54}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADOLib", "ADOLib\ADOLib.csproj", "{16BF68BD-53A8-4578-9134-66A0381423FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADODemoMVC", "ADODemoMVC\ADODemoMVC.csproj", "{0ED54793-A587-4AC5-B321-9F4256F08069}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{79E51E1B-D94E-43A0-A9B3-381408A70F54}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{79E51E1B-D94E-43A0-A9B3-381408A70F54}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{79E51E1B-D94E-43A0-A9B3-381408A70F54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16BF68BD-53A8-4578-9134-66A0381423FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16BF68BD-53A8-4578-9134-66A0381423FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16BF68BD-53A8-4578-9134-66A0381423FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16BF68BD-53A8-4578-9134-66A0381423FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0ED54793-A587-4AC5-B321-9F4256F08069}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0ED54793-A587-4AC5-B321-9F4256F08069}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0ED54793-A587-4AC5-B321-9F4256F08069}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0ED54793-A587-4AC5-B321-9F4256F08069}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

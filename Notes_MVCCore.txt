@@ -244,7 +244,7 @@ for e.g. logger instance and any other utility object.
  
 3) AddScoped():- It maintains the instance within the multiple requests of the same http context
 
-
+How to inject using methods:- we need to use one attribute to the parameter interface [FromServices]
 
 ==============================Error Handling in ASP.NET Core====================
 ways of handling errors:
@@ -306,6 +306,51 @@ ii) app.UseStatusCodePagesWithReExecute("/Error/{0}");  ---can be programmed to 
      }
  }
 
+============Error logging =====================
+
+
+
+
+
+=============================Day6=================================
+ADO.NET:- Data Access Component for interacting backend database.
+ 
+MVC-------->Service(API)-----> BusinessLayer------>Data Access Layer(ADO.NET)---->DB Operations(CRUD)
+
+
+
+MVC----->BussinessLayer--->Data Access Layer(ADO.NET)---->DB Operations (CRUD)
+
+
+ADO.NET architecture:
+Two modes of database operation:
+a) Connected mode:-  Connection has to be always active while working with data even though u r not using the data or records.
+
+b) Disconnected mode:-In this case, data is retrieved and cached into memory and then connection is closed. Once user has manipulated the records in the memory then reopen the connection and save to database.
+Since in between retrieving and saving we don't need connection as we r working in memory, it is the disconnected approach.
+
+
+
+We need the packages to be installed to work with ADO.NET and these packages are different based on which database we r using.
+for e.g.	
+	for MS SQL Server--------> System.Data.SqlClient
+	for various SQL databases like oracle,sql server and so on
+		we can use System.Data.OleDb
+	for Oracle database------> System.Data.OracleClient
+
+---------------working with ADO.NET components in Connected mode:-
+	-SqlConnection  ----for configuring the server, database,authentication etc
+	-SqlCommand ----- for configuring SQL commands like INSERT,DELETE,UPDATE,SELECT, Stored Procedures
+		-Methods: 
+			-ExecuteNonQuery() when SQL command is I,D,U, it returns int showing no. of rows affected 
+			-ExecuteReader() when SQL command is SELECT, it returns SqlDataReader
+
+	-SqlDataReader----- it is the pointer to the recordset when the command is SELECT query.
+
+	-SqlParameter----- for configuring the parameters of the SqlCommand object
+
+
+Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=SampleDB;Integrated Security=True;
 
 
 
@@ -313,14 +358,6 @@ ii) app.UseStatusCodePagesWithReExecute("/Error/{0}");  ---can be programmed to 
 
 
 
-
-
-
-
-
-
-
-How to inject using methods:-
 
 
 

@@ -12,9 +12,9 @@ namespace HelloWorldMVC.Controllers
         private readonly ICalculator calculator;
 
         private readonly IDemo demo1,demo2;
-        public HomeController(ICalculator calculator, IDemo demo1,IDemo demo2)
+        public HomeController(/*ICalculator calculator,*/ IDemo demo1,IDemo demo2)
         {
-            this.calculator = calculator;
+            //this.calculator = calculator;
             this.demo1 = demo1;   
             this.demo2 = demo2;
         }
@@ -213,7 +213,7 @@ namespace HelloWorldMVC.Controllers
         }
 
         [HttpPost]
-        public IActionResult CreateCalc(int a ,int b)
+        public IActionResult CreateCalc(int a ,int b,[FromServices] ICalculator calculator)
         {
             var result = calculator.Add(a , b);
             ViewData.Add("result", result);

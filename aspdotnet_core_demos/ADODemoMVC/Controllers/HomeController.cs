@@ -1,0 +1,70 @@
+using ADODemoMVC.Models;
+using Microsoft.AspNetCore.Mvc;
+using System.Diagnostics;
+using ADOLib;
+
+namespace ADODemoMVC.Controllers
+{
+    public class HomeController : Controller
+    {
+        private readonly IEmployeesRepository dal;
+        public HomeController(IEmployeesRepository dal)
+        {
+            this.dal = dal;
+        }
+        public IActionResult Index()
+        {
+            var lstEmps = dal.GetAllEmps();
+
+            return View(lstEmps);
+        }
+
+        [HttpGet]
+        public IActionResult Create()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public IActionResult Create(Employee employee)
+        {
+            if(ModelState.IsValid)
+            {
+                //insert the record
+                dal.AddEmployee(employee);
+                return RedirectToAction("Index");
+            }
+            return View();
+        }
+
+        [HttpGet]
+        public IActionResult Details(int id)
+        {
+            var emp=dal.GetEmployee(id);
+            return View(emp);
+        }
+
+        [HttpGet]
+        public IActionResult Delete(int id)
+        {
+            dal.DeleteEmployee(id);
+            return RedirectToAction("Index");
+        }
+
+        [HttpGet]
+        public IActionResult Edit(int id)
+        {
+            //find the record and edit
+            var emp=dal.GetEmployee(id);
+            return View(emp);
+        }
+
+        [HttpPost]
+        public IActionResult Edit(Employee employee)
+        {
+            //update the record
+            dal.UpdateEmployee(employee);
+            return RedirectToAction("Index");
+        }
+    }
+}

@@ -1,11 +1,13 @@
 ﻿using HelloWorldMVC.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Filters;
+using Microsoft.Extensions.Caching.Memory;
+using Newtonsoft.Json.Serialization;
 
 namespace HelloWorldMVC.Controllers
 {
     public class SampleController : Controller
     {
-
         private readonly IDemo demo1,demo2;
         private readonly IMyFileLogger logger;
         public SampleController(IDemo demo1,IDemo demo2, IMyFileLogger logger)
@@ -39,7 +41,6 @@ namespace HelloWorldMVC.Controllers
                 return View("DisplayErrors");
             }
         }
-
 
         public IActionResult Display()
         {     
