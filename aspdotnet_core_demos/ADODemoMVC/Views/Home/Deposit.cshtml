@@ -1,0 +1,28 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<h1>Transaction Demo - Funds Transfer</h1><hr/>
+@using (Html.BeginForm("Deposit", "Home", FormMethod.Post))
+{
+    <div>
+        <label class="form-label">From Account:</label>
+        <input type="number" id="fromAccNo" name="fromAccNo" class="form-control" />
+    </div>
+    <div>
+        <label class="form-label">To Account:</label>
+        <input type="number" id="toAccNo" name="toAccNo" class="form-control" />
+    </div>
+    <div>
+        <label class="form-label">Enter amount to transfer:</label>
+        <input type="number" id="amount" name="amount" class="form-control" />
+        @* @Html.TextBox("amount") *@
+    </div>
+   
+    <input type="submit" value="Place Order" />
+}
+@if (ViewBag.msg != null)
+{
+    <h3>@ViewBag.msg</h3>
+}

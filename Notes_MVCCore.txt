@@ -350,6 +350,62 @@ for e.g.
 	-SqlParameter----- for configuring the parameters of the SqlCommand object
 
 
+Note: Do not hard-code the connection string in the application. It should be kept outside in appsettings.json file and read in the application.
+	-install Microsoft.Extensions.Configuration
+	-inject the IConfiguration config
+	-access the connectionString using config.GetConnectionString("name")
+
+=============calling stored procedure in ADO.NET=================
+-u must specify CommandType.StoredProcedure for SqlCommand object
+
+-last inserted record id value.
+
+Place order-----orderid is auto-generated i.e. identity column, not entered manually.
+Note: in the same scope, identity value can be accessed using:
+	select @id=SCOPE_IDENTITY()
+Return this value using parameter direction output i.e. "out"
+Access the value in the ADO.NET by using Direction for the parameter
+	for e.g.
+ //specify the direction of the parameter order_id
+ cmd.Parameters[2].Direction = ParameterDirection.Output;
+
+ //get the value of the parameter
+ var orderid = (int)cmd.Parameters[2].Value;
+         
+
+
+==========================Transactions in ADO.NET=======================
+
+----------------------TRANSACTION-------------------
+debit:- payee----update balance - amount 
+---------error---------
+credit:- beneficiary----update balance + amount
+----------------------------------------------------
+A transaction is a group of related statements which must execute either
+all or none in case of any failure.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=SampleDB;Integrated Security=True;
 
 

@@ -14,5 +14,10 @@ namespace ADOLib
 
         List<Employee> GetAllEmps();
         Employee GetEmployee(int ecode);
+
+        int PlaceOrder(int amount, int quantity);
+
+        void FundsTransfer(int payee,int beneficiary,int amout);
+
     }
 }

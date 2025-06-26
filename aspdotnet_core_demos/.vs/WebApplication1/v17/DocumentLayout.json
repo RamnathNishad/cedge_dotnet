@@ -7,43 +7,24 @@
       "RelativeMoniker": "D:0:0:{16BF68BD-53A8-4578-9134-66A0381423FF}|ADOLib\\ADOLib.csproj|solutionrelative:adolib\\employeedataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/SampleDB/True/SqlTable/dbo.employees.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\CEdge_Dotnet\\cedge_dotnet\\aspdotnet_core_demos\\SQLQuery1.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SQLQuery1.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0ED54793-A587-4AC5-B321-9F4256F08069}|ADODemoMVC\\ADODemoMVC.csproj|d:\\cedge_dotnet\\cedge_dotnet\\aspdotnet_core_demos\\adodemomvc\\views\\home\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0ED54793-A587-4AC5-B321-9F4256F08069}|ADODemoMVC\\ADODemoMVC.csproj|solutionrelative:adodemomvc\\views\\home\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{0ED54793-A587-4AC5-B321-9F4256F08069}|ADODemoMVC\\ADODemoMVC.csproj|d:\\cedge_dotnet\\cedge_dotnet\\aspdotnet_core_demos\\adodemomvc\\views\\home\\placeorder.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0ED54793-A587-4AC5-B321-9F4256F08069}|ADODemoMVC\\ADODemoMVC.csproj|solutionrelative:adodemomvc\\views\\home\\placeorder.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0ED54793-A587-4AC5-B321-9F4256F08069}|ADODemoMVC\\ADODemoMVC.csproj|d:\\cedge_dotnet\\cedge_dotnet\\aspdotnet_core_demos\\adodemomvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0ED54793-A587-4AC5-B321-9F4256F08069}|ADODemoMVC\\ADODemoMVC.csproj|solutionrelative:adodemomvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0ED54793-A587-4AC5-B321-9F4256F08069}|ADODemoMVC\\ADODemoMVC.csproj|d:\\cedge_dotnet\\cedge_dotnet\\aspdotnet_core_demos\\adodemomvc\\views\\home\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0ED54793-A587-4AC5-B321-9F4256F08069}|ADODemoMVC\\ADODemoMVC.csproj|solutionrelative:adodemomvc\\views\\home\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\CEdge_Dotnet\\cedge_dotnet\\aspdotnet_core_demos\\SQLQuery1.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SQLQuery1.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0ED54793-A587-4AC5-B321-9F4256F08069}|ADODemoMVC\\ADODemoMVC.csproj|d:\\cedge_dotnet\\cedge_dotnet\\aspdotnet_core_demos\\adodemomvc\\views\\home\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0ED54793-A587-4AC5-B321-9F4256F08069}|ADODemoMVC\\ADODemoMVC.csproj|solutionrelative:adodemomvc\\views\\home\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{16BF68BD-53A8-4578-9134-66A0381423FF}|ADOLib\\ADOLib.csproj|d:\\cedge_dotnet\\cedge_dotnet\\aspdotnet_core_demos\\adolib\\iemployeesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{16BF68BD-53A8-4578-9134-66A0381423FF}|ADOLib\\ADOLib.csproj|solutionrelative:adolib\\iemployeesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0ED54793-A587-4AC5-B321-9F4256F08069}|ADODemoMVC\\ADODemoMVC.csproj|d:\\cedge_dotnet\\cedge_dotnet\\aspdotnet_core_demos\\adodemomvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0ED54793-A587-4AC5-B321-9F4256F08069}|ADODemoMVC\\ADODemoMVC.csproj|solutionrelative:adodemomvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0ED54793-A587-4AC5-B321-9F4256F08069}|ADODemoMVC\\ADODemoMVC.csproj|d:\\cedge_dotnet\\cedge_dotnet\\aspdotnet_core_demos\\adodemomvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0ED54793-A587-4AC5-B321-9F4256F08069}|ADODemoMVC\\ADODemoMVC.csproj|solutionrelative:adodemomvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{16BF68BD-53A8-4578-9134-66A0381423FF}|ADOLib\\ADOLib.csproj|d:\\cedge_dotnet\\cedge_dotnet\\aspdotnet_core_demos\\adolib\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{16BF68BD-53A8-4578-9134-66A0381423FF}|ADOLib\\ADOLib.csproj|solutionrelative:adolib\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{16BF68BD-53A8-4578-9134-66A0381423FF}|ADOLib\\ADOLib.csproj|d:\\cedge_dotnet\\cedge_dotnet\\aspdotnet_core_demos\\adolib\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{16BF68BD-53A8-4578-9134-66A0381423FF}|ADOLib\\ADOLib.csproj|solutionrelative:adolib\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\CEdge_Dotnet\\cedge_dotnet\\aspdotnet_core_demos\\SQLQuery1.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|ResultFrame",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SQLQuery1.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|ResultFrame"
     }
   ],
   "DocumentGroupContainers": [
@@ -53,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -61,77 +42,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "D:\\CEdge_Dotnet\\cedge_dotnet\\aspdotnet_core_demos\\ADODemoMVC\\Views\\Home\\Edit.cshtml",
-              "RelativeDocumentMoniker": "ADODemoMVC\\Views\\Home\\Edit.cshtml",
-              "ToolTip": "D:\\CEdge_Dotnet\\cedge_dotnet\\aspdotnet_core_demos\\ADODemoMVC\\Views\\Home\\Edit.cshtml",
-              "RelativeToolTip": "ADODemoMVC\\Views\\Home\\Edit.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-25T11:12:49.519Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "D:\\CEdge_Dotnet\\cedge_dotnet\\aspdotnet_core_demos\\ADODemoMVC\\Views\\Home\\Details.cshtml",
-              "RelativeDocumentMoniker": "ADODemoMVC\\Views\\Home\\Details.cshtml",
-              "ToolTip": "D:\\CEdge_Dotnet\\cedge_dotnet\\aspdotnet_core_demos\\ADODemoMVC\\Views\\Home\\Details.cshtml",
-              "RelativeToolTip": "ADODemoMVC\\Views\\Home\\Details.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-25T10:54:07.37Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "dbo.employees [Data]",
-              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/SampleDB/True/SqlTable/dbo.employees.sql",
-              "ToolTip": "dbo.employees [Data]",
+              "Title": "SQLQuery1.sql ",
+              "DocumentMoniker": "D:\\CEdge_Dotnet\\cedge_dotnet\\aspdotnet_core_demos\\SQLQuery1.sql",
+              "RelativeDocumentMoniker": "SQLQuery1.sql",
+              "ToolTip": "SQLQuery1.sql *",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2025-06-25T10:17:48.813Z",
+              "WhenOpened": "2025-06-26T09:58:40.103Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "D:\\CEdge_Dotnet\\cedge_dotnet\\aspdotnet_core_demos\\ADODemoMVC\\Views\\Home\\Create.cshtml",
-              "RelativeDocumentMoniker": "ADODemoMVC\\Views\\Home\\Create.cshtml",
-              "ToolTip": "D:\\CEdge_Dotnet\\cedge_dotnet\\aspdotnet_core_demos\\ADODemoMVC\\Views\\Home\\Create.cshtml",
-              "RelativeToolTip": "ADODemoMVC\\Views\\Home\\Create.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "PlaceOrder.cshtml",
+              "DocumentMoniker": "D:\\CEdge_Dotnet\\cedge_dotnet\\aspdotnet_core_demos\\ADODemoMVC\\Views\\Home\\PlaceOrder.cshtml",
+              "RelativeDocumentMoniker": "ADODemoMVC\\Views\\Home\\PlaceOrder.cshtml",
+              "ToolTip": "D:\\CEdge_Dotnet\\cedge_dotnet\\aspdotnet_core_demos\\ADODemoMVC\\Views\\Home\\PlaceOrder.cshtml",
+              "RelativeToolTip": "ADODemoMVC\\Views\\Home\\PlaceOrder.cshtml",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-25T10:17:06.22Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\CEdge_Dotnet\\cedge_dotnet\\aspdotnet_core_demos\\ADODemoMVC\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "ADODemoMVC\\Views\\Home\\Index.cshtml",
-              "ToolTip": "D:\\CEdge_Dotnet\\cedge_dotnet\\aspdotnet_core_demos\\ADODemoMVC\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "ADODemoMVC\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA4AAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-25T10:02:55.577Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\CEdge_Dotnet\\cedge_dotnet\\aspdotnet_core_demos\\ADODemoMVC\\Program.cs",
-              "RelativeDocumentMoniker": "ADODemoMVC\\Program.cs",
-              "ToolTip": "D:\\CEdge_Dotnet\\cedge_dotnet\\aspdotnet_core_demos\\ADODemoMVC\\Program.cs",
-              "RelativeToolTip": "ADODemoMVC\\Program.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAIBAwA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-25T10:00:19.899Z",
+              "WhenOpened": "2025-06-26T09:49:20.814Z",
               "EditorCaption": ""
             },
             {
@@ -142,22 +72,9 @@
               "RelativeDocumentMoniker": "ADODemoMVC\\Controllers\\HomeController.cs",
               "ToolTip": "D:\\CEdge_Dotnet\\cedge_dotnet\\aspdotnet_core_demos\\ADODemoMVC\\Controllers\\HomeController.cs",
               "RelativeToolTip": "ADODemoMVC\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAC4AAAAAAAAAAAAkwDcAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAYwEkAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-25T09:55:58.182Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Employee.cs",
-              "DocumentMoniker": "D:\\CEdge_Dotnet\\cedge_dotnet\\aspdotnet_core_demos\\ADOLib\\Employee.cs",
-              "RelativeDocumentMoniker": "ADOLib\\Employee.cs",
-              "ToolTip": "D:\\CEdge_Dotnet\\cedge_dotnet\\aspdotnet_core_demos\\ADOLib\\Employee.cs",
-              "RelativeToolTip": "ADOLib\\Employee.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-25T09:30:57.783Z",
+              "WhenOpened": "2025-06-26T09:46:27.468Z",
               "EditorCaption": ""
             },
             {
@@ -166,37 +83,11 @@
               "Title": "EmployeeDataAccess.cs",
               "DocumentMoniker": "D:\\CEdge_Dotnet\\cedge_dotnet\\aspdotnet_core_demos\\ADOLib\\EmployeeDataAccess.cs",
               "RelativeDocumentMoniker": "ADOLib\\EmployeeDataAccess.cs",
-              "ToolTip": "D:\\CEdge_Dotnet\\cedge_dotnet\\aspdotnet_core_demos\\ADOLib\\EmployeeDataAccess.cs",
-              "RelativeToolTip": "ADOLib\\EmployeeDataAccess.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAcwC8AAAAAAAAAAAAAAA==",
+              "ToolTip": "D:\\CEdge_Dotnet\\cedge_dotnet\\aspdotnet_core_demos\\ADOLib\\EmployeeDataAccess.cs*",
+              "RelativeToolTip": "ADOLib\\EmployeeDataAccess.cs*",
+              "ViewState": "AgIAALgAAAAAAAAAAAAAAL4AAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-25T09:30:20.666Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "IEmployeesRepository.cs",
-              "DocumentMoniker": "D:\\CEdge_Dotnet\\cedge_dotnet\\aspdotnet_core_demos\\ADOLib\\IEmployeesRepository.cs",
-              "RelativeDocumentMoniker": "ADOLib\\IEmployeesRepository.cs",
-              "ToolTip": "D:\\CEdge_Dotnet\\cedge_dotnet\\aspdotnet_core_demos\\ADOLib\\IEmployeesRepository.cs",
-              "RelativeToolTip": "ADOLib\\IEmployeesRepository.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-25T09:29:25.341Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "D:\\CEdge_Dotnet\\cedge_dotnet\\aspdotnet_core_demos\\ADOLib\\Class1.cs",
-              "RelativeDocumentMoniker": "ADOLib\\Class1.cs",
-              "ToolTip": "D:\\CEdge_Dotnet\\cedge_dotnet\\aspdotnet_core_demos\\ADOLib\\Class1.cs",
-              "RelativeToolTip": "ADOLib\\Class1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-25T09:17:10.326Z",
               "EditorCaption": ""
             }
           ]

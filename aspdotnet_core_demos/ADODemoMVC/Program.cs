@@ -13,7 +13,6 @@ namespace ADODemoMVC
             //configure dependency injection
             builder.Services.AddScoped<IEmployeesRepository, EmployeeDataAccess>();
 
-
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.

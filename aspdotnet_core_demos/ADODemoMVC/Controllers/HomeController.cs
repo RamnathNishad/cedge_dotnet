@@ -66,5 +66,39 @@ namespace ADODemoMVC.Controllers
             dal.UpdateEmployee(employee);
             return RedirectToAction("Index");
         }
+
+        [HttpGet]
+        public IActionResult PlaceOrder()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public IActionResult PlaceOrder(int amount,int quantity)
+        {
+            var orderId=dal.PlaceOrder(amount,quantity);
+            ViewBag.msg = "Order placed, ur order id:" + orderId;
+            return View();
+        }
+
+        [HttpGet]
+        public IActionResult Deposit()
+        {
+            return View();
+        }
+        [HttpPost]
+        public IActionResult Deposit(int fromAccNo,int toAccNo,int amount)
+        {
+            try
+            {
+                dal.FundsTransfer(fromAccNo, toAccNo, amount);
+                ViewBag.msg = "Funds transferred successfully!!!";                
+            }
+            catch (Exception ex)
+            {
+                ViewBag.msg = ex.Message;
+            }
+            return View();
+        }
     }
 }
