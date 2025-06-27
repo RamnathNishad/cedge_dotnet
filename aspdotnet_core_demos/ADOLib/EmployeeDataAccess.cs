@@ -245,5 +245,18 @@ namespace ADOLib
                 con.Close();
             }
         }
+
+        public int GetTotalSalary()
+        {
+            cmd = new SqlCommand();
+            cmd.CommandType= CommandType.Text;
+            cmd.CommandText = "select sum(salary) from employees";
+            cmd.Connection = con;
+            con.Open();
+            int totalSal=(int)cmd.ExecuteScalar();
+            con.Close();
+
+            return totalSal;
+        }
     }
 }

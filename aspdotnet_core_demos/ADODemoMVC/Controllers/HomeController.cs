@@ -15,6 +15,8 @@ namespace ADODemoMVC.Controllers
         public IActionResult Index()
         {
             var lstEmps = dal.GetAllEmps();
+            //var totalSalary=dal.GetTotalSalary();
+            ViewBag.TotalSalary = 0;// totalSalary;
 
             return View(lstEmps);
         }

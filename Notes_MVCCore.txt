@@ -386,10 +386,51 @@ all or none in case of any failure.
 
 
 
+=============================Day8=========================
+SqlCommand ------> ExecuteNonQuery()---->DML
+		   ExecuteReader()--->Queries ---return SqlDataReader
+		   ExecuteScalar()---> It is also used for SELECT statement command but it gives directly the first row,first column data value. We don't to call Read() method of DataReader.
+
+	SQL-->select sum(salary) from employees
+		var totalSalary=(int)cmd.ExecuteScalary();	
+
+
+=============================Disconnected mode of operation============
+
+Database----DataAdapter(Con,Cmd)------->DataSet----->Application(CRUD)
+
+Note: DataReader is loads one record at a time using Read() methods wheras DataSet holds all the records as per the query executed to fill it.
+-DataReader is forward-only and Read-only recordset wheras DataSet can be traversed both the direction using row index randomly and it is editable recordset.
+
+
+Fill the dataset with the records using DataAdapter
+for e.g. 	da.Fill(ds,"employees")
+
+Steps for Insert using DataSet:-
+a) create a new record from the DataSet table
+	DataRow row = ds.Tables[0].NewRow()
+
+b) specify the column values for the new row
+	row[0]=ec;
+	row[1]=en;
+	row[2]=sal;
+	row[3]=did;
+c) add this row to the dataset table rows collection
+	ds.Tables[0].Rows.Add(row)
+d) save changes database from DataSet using DataAdapter Update method:
+	SqlCommandBuilder cb=new SqlCommandBuilder(da);
+	da.Update(ds,"employees"); //this step only make changes permanent in DB
 
 
 
 
+
+
+
+
+
+
+  
 
 
 

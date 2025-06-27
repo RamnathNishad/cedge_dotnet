@@ -11,7 +11,8 @@ namespace ADODemoMVC
             // Add services to the container.
             builder.Services.AddControllersWithViews();
             //configure dependency injection
-            builder.Services.AddScoped<IEmployeesRepository, EmployeeDataAccess>();
+            //builder.Services.AddScoped<IEmployeesRepository, EmployeeDataAccess>();
+            builder.Services.AddScoped<IEmployeesRepository, AdoDisconnected>();
 
             var app = builder.Build();
 

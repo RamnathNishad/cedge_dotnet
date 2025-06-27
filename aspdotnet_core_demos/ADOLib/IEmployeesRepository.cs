@@ -19,5 +19,7 @@ namespace ADOLib
 
         void FundsTransfer(int payee,int beneficiary,int amout);
 
+        int GetTotalSalary();
+
     }
 }
