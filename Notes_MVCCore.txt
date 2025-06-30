@@ -445,7 +445,11 @@ ASP.NET Core WEB API:-
 -Middleware architecture
 
 
-
+=====================Routing in ASP.NET Core=====================
+Two types of routing :
+1) Conventional routing :- It is specified in Program.cs file at one place all the routes are configured.
+2) Attribute routing:- It is more comfortable as it is specified on the controller and action methods itself.
+	[Route("url")]
 
 
 

@@ -40,7 +40,7 @@
               "RelativeDocumentMoniker": "WebAPIPrj\\Program.cs",
               "ToolTip": "D:\\CEdge_Dotnet\\cedge_dotnet\\aspdotnet_core_demos\\WebAPIPrj\\Program.cs",
               "RelativeToolTip": "WebAPIPrj\\Program.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAywA4AAAAvAAAAAAAAAA==",
+              "ViewState": "AgIAABgAAAAAAAAAAAAywCIAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-30T10:13:56.783Z",
               "EditorCaption": ""
@@ -55,8 +55,7 @@
               "RelativeToolTip": "WebAPIPrj\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-06-30T10:12:39.285Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-30T10:12:39.285Z"
             },
             {
               "$type": "Document",
@@ -68,8 +67,7 @@
               "RelativeToolTip": "ADODemoMVC\\Views\\Home\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-30T10:08:02.36Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-30T10:08:02.36Z"
             },
             {
               "$type": "Document",
@@ -77,9 +75,9 @@
               "Title": "EmployeesController.cs",
               "DocumentMoniker": "D:\\CEdge_Dotnet\\cedge_dotnet\\aspdotnet_core_demos\\WebAPIPrj\\Controllers\\EmployeesController.cs",
               "RelativeDocumentMoniker": "WebAPIPrj\\Controllers\\EmployeesController.cs",
-              "ToolTip": "D:\\CEdge_Dotnet\\cedge_dotnet\\aspdotnet_core_demos\\WebAPIPrj\\Controllers\\EmployeesController.cs*",
-              "RelativeToolTip": "WebAPIPrj\\Controllers\\EmployeesController.cs*",
-              "ViewState": "AgIAABsAAAAAAAAAAAAowCEAAAAiAAAAAAAAAA==",
+              "ToolTip": "D:\\CEdge_Dotnet\\cedge_dotnet\\aspdotnet_core_demos\\WebAPIPrj\\Controllers\\EmployeesController.cs",
+              "RelativeToolTip": "WebAPIPrj\\Controllers\\EmployeesController.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAiwC4AAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-30T09:58:28.159Z",
               "EditorCaption": ""

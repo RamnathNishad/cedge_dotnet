@@ -17,34 +17,50 @@ namespace WebAPIPrj.Controllers
 
         // GET: api/<EmployeesController>
         [HttpGet]
+        [Route("GetAllEmps")]
+        //[Route("GetEmps")]
         public IEnumerable<Employee> Get()
         {
             return dal.GetAllEmps();
         }
 
         // GET api/<EmployeesController>/5
-        [HttpGet("{id}")]
-        public Employee Get(int id)
+        [HttpGet]
+        [Route("GetEmpById/{id:int}")]
+        public Employee GetEmpById(int id)
         {
             return dal.GetEmployee(id);
         }
 
+        [HttpGet]
+        [Route("GetEmpsByDeptId/{id:int}")]
+        public List<Employee> GetEmpsByDeptId(int id)
+        {
+            return dal.GetAllEmps()
+                      .Where(p=>p.Deptid==id)
+                      .ToList();
+        }
+
+
         // POST api/<EmployeesController>
         [HttpPost]
+        [Route("AddEmployee")]
         public void Post([FromBody] Employee emp)
         {
             dal.AddEmployee(emp);
         }
 
         // PUT api/<EmployeesController>/5
-        [HttpPut("{id}")]
+        [HttpPut]
+        [Route("UpdateEmp/{id}")]
         public void Put(int id, [FromBody] Employee emp)
         {
             dal.UpdateEmployee(emp);
         }
 
         // DELETE api/<EmployeesController>/5
-        [HttpDelete("{id}")]
+        [HttpDelete]
+        [Route("DeleteEmp/{id}")]
         public void Delete(int id)
         {
             dal.DeleteEmployee(id);
