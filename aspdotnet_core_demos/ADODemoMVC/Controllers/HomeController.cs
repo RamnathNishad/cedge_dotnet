@@ -15,13 +15,14 @@ namespace ADODemoMVC.Controllers
         public IActionResult Index()
         {
             var lstEmps = dal.GetAllEmps();
-            //var totalSalary=dal.GetTotalSalary();
-            ViewBag.TotalSalary = 0;// totalSalary;
+            var totalSalary=dal.GetTotalSalary();
+            ViewBag.TotalSalary = totalSalary;
 
             return View(lstEmps);
         }
 
         [HttpGet]
+        //[Route("AddEmployee")]
         public IActionResult Create()
         {
             return View();

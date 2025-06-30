@@ -12,7 +12,8 @@ namespace ADODemoMVC
             builder.Services.AddControllersWithViews();
             //configure dependency injection
             //builder.Services.AddScoped<IEmployeesRepository, EmployeeDataAccess>();
-            builder.Services.AddScoped<IEmployeesRepository, AdoDisconnected>();
+            //builder.Services.AddScoped<IEmployeesRepository, AdoDisconnected>();
+            builder.Services.AddScoped<IEmployeesRepository,AdoDisconnectedOleDb>();
 
             var app = builder.Build();
 

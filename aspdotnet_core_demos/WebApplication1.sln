@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADOLib", "ADOLib\ADOLib.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADODemoMVC", "ADODemoMVC\ADODemoMVC.csproj", "{0ED54793-A587-4AC5-B321-9F4256F08069}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPIPrj", "WebAPIPrj\WebAPIPrj.csproj", "{AE46AEFB-17A0-4A39-91EF-F8CD1E46D222}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,8 +35,15 @@ Global
 		{0ED54793-A587-4AC5-B321-9F4256F08069}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0ED54793-A587-4AC5-B321-9F4256F08069}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0ED54793-A587-4AC5-B321-9F4256F08069}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE46AEFB-17A0-4A39-91EF-F8CD1E46D222}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE46AEFB-17A0-4A39-91EF-F8CD1E46D222}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE46AEFB-17A0-4A39-91EF-F8CD1E46D222}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE46AEFB-17A0-4A39-91EF-F8CD1E46D222}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {60E5D1EF-5128-4C3E-ADC5-4D416A707000}
 	EndGlobalSection
 EndGlobal

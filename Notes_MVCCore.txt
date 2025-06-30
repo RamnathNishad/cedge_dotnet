@@ -421,6 +421,28 @@ d) save changes database from DataSet using DataAdapter Update method:
 	SqlCommandBuilder cb=new SqlCommandBuilder(da);
 	da.Update(ds,"employees"); //this step only make changes permanent in DB
 
+=================================ASP.NET WEB API=============================
+UI(MVC)----->WEB API(Service layer)--------->Repository Layer(DAL)------>Database
+
+
+WEB API:-
+Service  over HTTP protocol should adhere to principles of Restful services.
+-service must be developed without worrying the client information.
+-service should be capable of giving response in requested format like json,xml,binary etc
+-service should communicate over the messages like xml,json and so on
+-it shud be stateless i.e. there shud not by any information stored about the client on the server.
+-it shud be interacted using uniform resource indicator(uri) i.e. resources at service will be interacted using unique uri. these resources can be a file, a record in database or any other object
+-it shud work closely with HTTP Request headers i.e. HTTP GET,HTTP POST,HTTP PUT and HTTP DELETE.
+	-GET------> shud read the resource from server
+	-POST-----> it shud always create the resource on the server
+	-PUT -----> it shud always update the resource on the server
+	-DELETE---> it shud the delete the resource on the server
+
+ASP.NET Core WEB API:-
+-MVC(without view)
+-Dependency inject in-built
+-Routing services
+-Middleware architecture
 
 
 

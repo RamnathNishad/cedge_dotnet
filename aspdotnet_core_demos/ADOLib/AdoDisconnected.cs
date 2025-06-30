@@ -53,7 +53,20 @@ namespace ADOLib
 
         public void DeleteEmployee(int ecode)
         {
-            throw new NotImplementedException();
+            //delete records from DataSet
+            //find the record to be deleted
+            var row = ds.Tables[0].Rows.Find(ecode);
+            if (row != null)
+            {
+                //delete and save changes to DB
+                row.Delete();
+                SqlCommandBuilder cb = new SqlCommandBuilder(da);
+                da.Update(ds, "employees");
+            }
+            else
+            {
+                throw new Exception("Record not found");
+            }
         }
 
         public void FundsTransfer(int payee, int beneficiary, int amout)
@@ -113,7 +126,12 @@ namespace ADOLib
 
         public int GetTotalSalary()
         {
-            throw new NotImplementedException();
+            var totalSalary = 0;
+            foreach (DataRow row in ds.Tables[0].Rows)
+            {
+                totalSalary+= (int)row[2];
+            }
+            return totalSalary;
         }
 
         public int PlaceOrder(int amount, int quantity)
@@ -123,7 +141,22 @@ namespace ADOLib
 
         public void UpdateEmployee(Employee employee)
         {
-            throw new NotImplementedException();
+            //find the record for update
+            var record = ds.Tables[0].Rows.Find(employee.Ecode);
+            if (record != null)
+            {
+                //update the values 
+                record[1] = employee.Ename;
+                record[2]=employee.Salary;
+                record[3]=employee.Deptid;
+                //save changes using DA
+                SqlCommandBuilder cb = new SqlCommandBuilder(da);
+                da.Update(ds, "employees");
+            }
+            else
+            {
+                throw new Exception("Record not found");
+            }
         }
     }
 }
