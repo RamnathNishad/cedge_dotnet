@@ -451,12 +451,72 @@ Two types of routing :
 2) Attribute routing:- It is more comfortable as it is specified on the controller and action methods itself.
 	[Route("url")]
 
+==================================Day10==========================
+How to consume the API in clients:-
+1) using C# in MVC application (server-side code to communicate WEB API using HttpClient)
+2) using JavaScript (in-built Fetch() method or AJAX jQuery library)--->enable CORS in WEB API
 
+Automapper library is useful to map the data from one format to other format as DTO pattern.
 
+- install the Automapper package from NuGet repository
+	AutoMapper.Extensions
+	Microsoft.DependencyInjection
 
-
-
+- //using the AutoMapper
+	
+ //configure and create mapper object
+ MapperConfiguration config = new MapperConfiguration(c => c.CreateMap<DtoEmployee,Employee>());
+ //create the mapper using configuration
+ IMapper mapper=config.CreateMapper();
+ //map source to destination using mapper
+ list=mapper.Map<List<Employee>>(dtoLst);
   
+-----------------------configuring the AutoMapper globally------------------------
+we may need Automapping in different parts of the application at many places so to avoid the recoding mapping configuration, we should configure automapper at global level in the Program.cs file as part of services.
+
+Steps:
+1) we need to create a Profile with the base class "Profile" 
+
+public class EmployeeProfile : Profile
+{
+	public EmployeeProfile()
+	{
+		CreateMap<DtoEmployee,Employee>();
+	}
+}
+
+2) We need to add this profile in the Services inside Program.cs
+//configure the AutoMapper for Employee Profile
+MapperConfiguration config=new MapperConfiguration(c=>c.AddProfile(new EmployeeProfile()));
+
+IMapper mapper=config.CreateMapper();
+
+//add this mapper to the services
+builder.Services.AddSingleton(mapper);
+
+
+=====================Consuming API in JavaScript/AJAX client======================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

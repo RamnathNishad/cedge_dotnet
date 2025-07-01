@@ -1,4 +1,6 @@
+using ADODemoMVC.Models;
 using ADOLib;
+using AutoMapper;
 
 namespace ADODemoMVC
 {
@@ -14,6 +16,12 @@ namespace ADODemoMVC
             //builder.Services.AddScoped<IEmployeesRepository, EmployeeDataAccess>();
             //builder.Services.AddScoped<IEmployeesRepository, AdoDisconnected>();
             builder.Services.AddScoped<IEmployeesRepository,AdoDisconnectedOleDb>();
+
+            //configure AutoMapper
+            MapperConfiguration config = new MapperConfiguration(c => c.AddProfile(new EmployeeProfile()));
+            IMapper mapper = config.CreateMapper();
+            //add this mapper to the services
+            builder.Services.AddSingleton(mapper);
 
             var app = builder.Build();
 

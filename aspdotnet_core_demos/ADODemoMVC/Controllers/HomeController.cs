@@ -2,21 +2,27 @@ using ADODemoMVC.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 using ADOLib;
+using AutoMapper;
 
 namespace ADODemoMVC.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly IEmployeesRepository dal;
-        public HomeController(IEmployeesRepository dal)
+        private readonly IMapper mapper;
+        ApiConsumer consumer;
+        public HomeController(IMapper mapper)
         {
-            this.dal = dal;
+            this.mapper = mapper;
+            consumer = new ApiConsumer();
         }
         public IActionResult Index()
         {
-            var lstEmps = dal.GetAllEmps();
-            var totalSalary=dal.GetTotalSalary();
-            ViewBag.TotalSalary = totalSalary;
+            var dtoEmps = consumer.GetAllEmps();
+            //map the result using DTO
+            var lstEmps=mapper.Map<List<Employee>>(dtoEmps);
+
+            //var totalSalary=dal.GetTotalSalary();
+            ViewBag.TotalSalary = 0;// totalSalary;
 
             return View(lstEmps);
         }
@@ -34,7 +40,8 @@ namespace ADODemoMVC.Controllers
             if(ModelState.IsValid)
             {
                 //insert the record
-                dal.AddEmployee(employee);
+                //dal.AddEmployee(employee);
+                consumer.AddEmployee(employee);
                 return RedirectToAction("Index");
             }
             return View();
@@ -43,14 +50,17 @@ namespace ADODemoMVC.Controllers
         [HttpGet]
         public IActionResult Details(int id)
         {
-            var emp=dal.GetEmployee(id);
+            var dtoEmp = consumer.GetEmpById(id);
+            //map the result using DTO
+            var emp = mapper.Map<Employee>(dtoEmp);
             return View(emp);
         }
 
         [HttpGet]
         public IActionResult Delete(int id)
         {
-            dal.DeleteEmployee(id);
+            //dal.DeleteEmployee(id);
+            consumer.DeleteEmp(id);
             return RedirectToAction("Index");
         }
 
@@ -58,7 +68,9 @@ namespace ADODemoMVC.Controllers
         public IActionResult Edit(int id)
         {
             //find the record and edit
-            var emp=dal.GetEmployee(id);
+            var dtoEmp = consumer.GetEmpById(id);
+            //map the result using DTO
+            var emp = mapper.Map<Employee>(dtoEmp);
             return View(emp);
         }
 
@@ -66,7 +78,8 @@ namespace ADODemoMVC.Controllers
         public IActionResult Edit(Employee employee)
         {
             //update the record
-            dal.UpdateEmployee(employee);
+            //dal.UpdateEmployee(employee);
+            consumer.UpdateEmp(employee);
             return RedirectToAction("Index");
         }
 
@@ -79,7 +92,7 @@ namespace ADODemoMVC.Controllers
         [HttpPost]
         public IActionResult PlaceOrder(int amount,int quantity)
         {
-            var orderId=dal.PlaceOrder(amount,quantity);
+            var orderId = 0;// dal.PlaceOrder(amount,quantity);
             ViewBag.msg = "Order placed, ur order id:" + orderId;
             return View();
         }
@@ -94,7 +107,7 @@ namespace ADODemoMVC.Controllers
         {
             try
             {
-                dal.FundsTransfer(fromAccNo, toAccNo, amount);
+                //dal.FundsTransfer(fromAccNo, toAccNo, amount);
                 ViewBag.msg = "Funds transferred successfully!!!";                
             }
             catch (Exception ex)
