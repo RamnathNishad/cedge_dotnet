@@ -21,7 +21,6 @@ namespace ADODemoMVC.Controllers
             //map the result using DTO
             var lstEmps=mapper.Map<List<Employee>>(dtoEmps);
 
-            //var totalSalary=dal.GetTotalSalary();
             ViewBag.TotalSalary = 0;// totalSalary;
 
             return View(lstEmps);
@@ -40,9 +39,14 @@ namespace ADODemoMVC.Controllers
             if(ModelState.IsValid)
             {
                 //insert the record
-                //dal.AddEmployee(employee);
-                consumer.AddEmployee(employee);
-                return RedirectToAction("Index");
+                var status=consumer.AddEmployee(employee);
+                if (status == true)
+                    return RedirectToAction("Index");
+                else
+                {
+                    ViewData.Add("errMsg", "could not insert record");
+                    return View();
+                }
             }
             return View();
         }
@@ -59,7 +63,6 @@ namespace ADODemoMVC.Controllers
         [HttpGet]
         public IActionResult Delete(int id)
         {
-            //dal.DeleteEmployee(id);
             consumer.DeleteEmp(id);
             return RedirectToAction("Index");
         }
@@ -78,7 +81,6 @@ namespace ADODemoMVC.Controllers
         public IActionResult Edit(Employee employee)
         {
             //update the record
-            //dal.UpdateEmployee(employee);
             consumer.UpdateEmp(employee);
             return RedirectToAction("Index");
         }
@@ -92,7 +94,7 @@ namespace ADODemoMVC.Controllers
         [HttpPost]
         public IActionResult PlaceOrder(int amount,int quantity)
         {
-            var orderId = 0;// dal.PlaceOrder(amount,quantity);
+            var orderId = 0;
             ViewBag.msg = "Order placed, ur order id:" + orderId;
             return View();
         }
@@ -107,7 +109,6 @@ namespace ADODemoMVC.Controllers
         {
             try
             {
-                //dal.FundsTransfer(fromAccNo, toAccNo, amount);
                 ViewBag.msg = "Funds transferred successfully!!!";                
             }
             catch (Exception ex)

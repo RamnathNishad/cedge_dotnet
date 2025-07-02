@@ -61,7 +61,7 @@ namespace ADODemoMVC.Models
             return dtoLst;
         }
 
-        public string AddEmployee(Employee employee)
+        public bool AddEmployee(Employee employee)
         {
             using (var http = new HttpClient())
             {
@@ -71,11 +71,11 @@ namespace ADODemoMVC.Models
                 var responseResult = response.Result;
                 if (responseResult.IsSuccessStatusCode)
                 {
-                    return "Record inserted";
+                    return true;
                 }
                 else
                 {
-                    return "Could not insert record";
+                    return false;
                 }
             }
         }

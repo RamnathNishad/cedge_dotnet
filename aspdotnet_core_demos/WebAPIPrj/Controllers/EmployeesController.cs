@@ -19,51 +19,104 @@ namespace WebAPIPrj.Controllers
         [HttpGet]
         [Route("GetAllEmps")]
         //[Route("GetEmps")]
-        public IEnumerable<Employee> Get()
+        public IActionResult Get()
         {
-            return dal.GetAllEmps();
+            try
+            {
+                return Ok(dal.GetAllEmps());
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
         }
 
         // GET api/<EmployeesController>/5
         [HttpGet]
         [Route("GetEmpById/{id:int}")]
-        public Employee GetEmpById(int id)
+        public IActionResult GetEmpById(int id)
         {
-            return dal.GetEmployee(id);
+            try
+            {
+                return Ok(dal.GetEmployee(id));
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
         }
 
         [HttpGet]
         [Route("GetEmpsByDeptId/{id:int}")]
-        public List<Employee> GetEmpsByDeptId(int id)
+        public IActionResult GetEmpsByDeptId(int id)
         {
-            return dal.GetAllEmps()
-                      .Where(p=>p.Deptid==id)
-                      .ToList();
+            try
+            {
+                return Ok(dal.GetAllEmps()
+                          .Where(p => p.Deptid == id)
+                          .ToList());
+            }
+            catch(Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
         }
 
 
         // POST api/<EmployeesController>
         [HttpPost]
         [Route("AddEmployee")]
-        public void Post([FromBody] Employee emp)
+        public IActionResult Post([FromBody] Employee emp)
         {
-            dal.AddEmployee(emp);
+            try
+            {
+                dal.AddEmployee(emp);
+                return Ok("Record inserted");
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
         }
 
         // PUT api/<EmployeesController>/5
         [HttpPut]
         [Route("UpdateEmp/{id}")]
-        public void Put(int id, [FromBody] Employee emp)
+        public IActionResult Put(int id, [FromBody] Employee emp)
         {
-            dal.UpdateEmployee(emp);
+            try
+            {
+                dal.UpdateEmployee(emp);
+                return Ok("Record updated");
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
         }
 
         // DELETE api/<EmployeesController>/5
         [HttpDelete]
         [Route("DeleteEmp/{id}")]
-        public void Delete(int id)
+        public IActionResult Delete(int id)
         {
-            dal.DeleteEmployee(id);
+            try
+            {
+                dal.DeleteEmployee(id);
+                return Ok("Record deleted");
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        }
+
+        [HttpGet]
+        [Route("divide/{a}/{b}")]
+        public IActionResult Divide(int a,int b)
+        {
+            var result = a / b;
+            return Ok(result);
         }
     }
 }

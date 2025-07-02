@@ -497,9 +497,101 @@ builder.Services.AddSingleton(mapper);
 
 =====================Consuming API in JavaScript/AJAX client======================
 
+WEB API by default does not allow access by the clients which are in different domain(i.e. different port no).
+-we need to enable CORS policy in Program.cs:
+	 //configure CORS policy
+ builder.Services.AddCors(options =>
+ {
+     options.AddPolicy("clients-allowed", opt =>
+     {
+         opt.WithOrigins("http://localhost:5055")
+         .AllowAnyMethod()
+         .AllowAnyHeader();
+     });
+ });
+
+--use the CORS policy
+ //use CORS policy
+ app.UseCors("clients-allowed");
+
+ app.Run();
 
 
+-===================Fetch promised based calls to api using JavaScript=================
+function getEmps() {
+    fetch("http://localhost:5142/api/Employees/GetAllEmps")
+        .then(response => response.json())
+        .then(data => {
+            console.log(data)
+        });
+}
+-================AJAX is javascript library to call api===================
+add jquery library in ur page for ajax calls.
 
+function getEmpsAJax() {
+    $.ajax({
+        url: "http://localhost:5142/api/Employees/GetAllEmps",
+        type: "GET",
+        success: function (response) {
+            console.log(response);
+        },
+        error: function (errRes) {
+            console.log("error:", errRes);
+        }
+    });
+}
+
+==========================MediaTypeFormatter=========================
+These are components of api which serialize and deserialize the request/response in different formats like JSON or XML
+By default JSON and XML formatter are already there with ASP.NET Web API, we need to enable to use them.
+We do this using Middleware options:
+  builder.Services.AddControllers(options => {
+      options.OutputFormatters.Add(new XmlSerializerOutputFormatter());
+      });
+        
+
+
+=================Global Exception Handling in API===================
+steps:
+1) define the Global Exception handler class implementing IMiddleware. use the ProblemDetails object for sending error details:
+public class GlobalExceptionHandler : IMiddleware
+{
+    public async Task InvokeAsync(HttpContext context, RequestDelegate next)
+    {
+        try
+        {
+           await next(context);
+        }
+        catch (Exception ex)
+        {
+            //send the error response with proper details as per user
+            ProblemDetails details = new ProblemDetails
+            {
+                Detail="Some server error occurred:"+ ex.Message,
+                Status=(int)HttpStatusCode.InternalServerError,
+                Title="Server error",
+                Type="Internal Server error"
+            };
+
+            //serialize this details into json
+            string json=JsonSerializer.Serialize(details);
+            //set the content type of response as json
+            context.Response.ContentType = "application/json";
+            //send the error response
+            await context.Response.WriteAsync(json);
+        }
+    }
+} 
+
+2) add and use this middleware in Program.cs:
+ //configure GlobalException Middleware
+ builder.Services.AddScoped<GlobalExceptionHandler>();
+
+ var app = builder.Build();
+
+ //use GlobalException Middleware
+ app.UseMiddleware<GlobalExceptionHandler>();
+ app.Run();
 
 
 

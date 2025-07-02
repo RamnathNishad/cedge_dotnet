@@ -42,6 +42,10 @@
 <div>
     <a asp-action="Index">Back to List</a>
 </div>
+@if(ViewData["errMsg"]!=null)
+{
+    <h3 class="text-danger">@ViewData["errMsg"].ToString()</h3>
+}
 
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
