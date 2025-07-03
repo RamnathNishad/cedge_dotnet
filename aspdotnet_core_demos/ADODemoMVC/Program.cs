@@ -23,6 +23,8 @@ namespace ADODemoMVC
             //add this mapper to the services
             builder.Services.AddSingleton(mapper);
 
+            builder.Services.AddSession();
+
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.
@@ -40,6 +42,7 @@ namespace ADODemoMVC
                 name: "default",
                 pattern: "{controller=Home}/{action=Index}/{id?}");
 
+            app.UseSession();
             app.Run();
         }
     }

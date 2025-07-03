@@ -17,7 +17,8 @@ namespace ADODemoMVC.Controllers
         }
         public IActionResult Index()
         {
-            var dtoEmps = consumer.GetAllEmps();
+            var token = HttpContext.Session.GetString("token");
+            var dtoEmps = consumer.GetAllEmps(token);
             //map the result using DTO
             var lstEmps=mapper.Map<List<Employee>>(dtoEmps);
 

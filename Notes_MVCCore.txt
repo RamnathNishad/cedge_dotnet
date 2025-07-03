@@ -594,9 +594,28 @@ public class GlobalExceptionHandler : IMiddleware
  app.Run();
 
 
+========================Securing API Endpoints using JWT Bearer token======================
 
+JWT:- JSON WEB TOKEN
+What is JWT?
+-You want data sent between the two parties to be digitally signed and either party can confirm of it's authenticity.
 
+-We can use this technology to implement authentication and authorization in any API in any programming language.
 
+JWT Token has 3 components:
+header.payload.(header+payload+secretkey)===>jwt token
+
+-How to make API endpoints secure:
+1) use [Authorize] attribute on to controller if u want whole controller endpoints to be secured or can be used only at action level also
+
+2) Add Authentication scheme into ur Program.cs
+we need to install following packages: 
+-Microsoft.AspNetCore.Authentication.JwtBearer
+-System.IdentityModle.Tokens.Jwt
+
+3) Add Authentication middleware for jWt bearer token and specify what are the parameters to be checked in token.
+
+ 
 
 
 

@@ -8,13 +8,41 @@ namespace ADODemoMVC.Models
     {      
 
         static string baseUrl = "http://localhost:5142/api/Employees/";
-        public  List<DtoEmployee> GetAllEmps()
+        
+        public string Authenticate(string uname,string pwd)
+        {
+            //call the login api authenticate method
+            string baseAddress = "http://localhost:5142/api/Account/authenticate";
+            using (HttpClient client = new HttpClient())
+            {
+                client.BaseAddress = new Uri(baseAddress);
+                var response=client.PostAsJsonAsync("", new { username = uname, password = pwd });
+                response.Wait();
+                
+                var result=response.Result;
+                if (result.IsSuccessStatusCode)
+                {
+                    var data = result.Content.ReadAsStringAsync();
+                    data.Wait();
+                    var token = data.Result;
+                    return token;
+                }
+                else
+                {
+                    return null;
+                }
+            }
+        }
+        public  List<DtoEmployee> GetAllEmps(string token)
         { 
             var dtoLst = new List<DtoEmployee>();
             //call the web api GetAll using HttpClient
             using (var http=new HttpClient())
             {
                 http.BaseAddress = new Uri(baseUrl);
+
+                //attach bearer token to the Http authorization header
+                http.DefaultRequestHeaders.Add("Authorization", $"Bearer {token}");
                 var response = http.GetAsync("GetAllEmps");
                 response.Wait();
 
