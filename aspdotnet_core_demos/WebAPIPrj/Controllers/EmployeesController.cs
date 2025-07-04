@@ -20,7 +20,6 @@ namespace WebAPIPrj.Controllers
         // GET: api/<EmployeesController>
         [HttpGet]
         [Route("GetAllEmps")]
-        //[Route("GetEmps")]
         public IActionResult Get()
         {
             try
@@ -63,7 +62,6 @@ namespace WebAPIPrj.Controllers
                 return BadRequest(ex.Message);
             }
         }
-
 
         // POST api/<EmployeesController>
         [HttpPost]

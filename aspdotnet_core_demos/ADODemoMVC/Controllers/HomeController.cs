@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 using ADOLib;
 using AutoMapper;
+using Microsoft.AspNetCore.Authorization;
 
 namespace ADODemoMVC.Controllers
 {
@@ -39,8 +40,9 @@ namespace ADODemoMVC.Controllers
         {
             if(ModelState.IsValid)
             {
+                var token = HttpContext.Session.GetString("token");
                 //insert the record
-                var status=consumer.AddEmployee(employee);
+                var status =consumer.AddEmployee(employee,token);
                 if (status == true)
                     return RedirectToAction("Index");
                 else

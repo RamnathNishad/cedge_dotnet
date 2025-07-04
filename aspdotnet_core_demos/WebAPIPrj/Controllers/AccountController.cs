@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.IdentityModel.Tokens;
 using System.IdentityModel.Tokens.Jwt;
+using System.Security.Claims;
 using System.Security.Cryptography;
 using System.Text;
 using WebAPIPrj.Models;
@@ -34,20 +35,18 @@ namespace WebAPIPrj.Controllers
             }            
         }
         private string GetToken(string username,string password)
-        {
+        {           
             var secretKey = config["JWT:Key"];
-            var tokenDescriptor = new SecurityTokenDescriptor
-            {
-                Issuer = config["JWT:Issuer"],
-                Audience= config["JWT:Audience"],
-                Expires=DateTime.UtcNow.AddMinutes(1),
-                SigningCredentials=new SigningCredentials(new SymmetricSecurityKey(Encoding.UTF8.GetBytes(secretKey)),SecurityAlgorithms.HmacSha256Signature)
-            };
+            var tokenDescriptor = new JwtSecurityToken(            
+                issuer : config["JWT:Issuer"],
+                audience: config["JWT:Audience"],
+                expires:DateTime.UtcNow.AddMinutes(1),
+                signingCredentials:new SigningCredentials(new SymmetricSecurityKey(Encoding.UTF8.GetBytes(secretKey)),SecurityAlgorithms.HmacSha256Signature)
+                );
 
             var tokenHandler =new JwtSecurityTokenHandler();
-            var token =tokenHandler.CreateToken(tokenDescriptor);
-        
-            return tokenHandler.WriteToken(token);
+            var token = tokenHandler.WriteToken(tokenDescriptor);
+            return token;
         }
     }
 }

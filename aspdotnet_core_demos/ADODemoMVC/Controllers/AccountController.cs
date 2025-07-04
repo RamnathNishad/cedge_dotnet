@@ -1,6 +1,8 @@
 ﻿using ADODemoMVC.Models;
+using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Mvc;
 using System.Globalization;
+using System.Security.Claims;
 
 namespace ADODemoMVC.Controllers
 {
@@ -13,19 +15,18 @@ namespace ADODemoMVC.Controllers
         }
 
         [HttpPost]
-        public IActionResult Login(string username,string password)
+        public IActionResult Login(string username, string password)
         {
-            ApiConsumer consumer=new ApiConsumer();
+            ApiConsumer consumer = new ApiConsumer();
             //call the Account API Authenticate method to get token
-            var token = consumer.Authenticate(username,password);
+            var token = consumer.Authenticate(username, password);
 
-            if(token!=null)
+            if (token != null)
             {
                 HttpContext.Session.SetString("token", token);
                 return RedirectToAction("Index", "Home");
             }
             return View();
         }
-
     }
 }

@@ -1,5 +1,6 @@
 ﻿using ADOLib;
 using AutoMapper;
+using NuGet.Common;
 using System.Text.Json;
 
 namespace ADODemoMVC.Models
@@ -58,21 +59,7 @@ namespace ADODemoMVC.Models
                     var dataStr = data.Result;
                     //convert the json string into object
                     dtoLst=JsonSerializer.Deserialize<List<DtoEmployee>>(dataStr);
-                    
-                    
-                    ////map the dto to employee
-                    //foreach (var item in dtoLst)
-                    //{
-                    //    var emp = new Employee
-                    //    {
-                    //        Ecode = item.ecode,
-                    //        Ename = item.ename,
-                    //        Salary = item.salary,
-                    //        Deptid = item.deptid
-                    //    };
-                    //    list.Add(emp);
-                    //}
-
+ 
                     ////configure and create mapper object
                     //MapperConfiguration config = new MapperConfiguration(c => c.CreateMap<DtoEmployee,Employee>());
                     ////create the mapper using configuration
@@ -89,11 +76,14 @@ namespace ADODemoMVC.Models
             return dtoLst;
         }
 
-        public bool AddEmployee(Employee employee)
+        public bool AddEmployee(Employee employee,string token)
         {
             using (var http = new HttpClient())
             {
                 http.BaseAddress = new Uri(baseUrl);
+                //attach bearer token to the Http authorization header
+                http.DefaultRequestHeaders.Add("Authorization", $"Bearer {token}");
+
                 var response = http.PostAsJsonAsync("AddEmployee", employee);
                 response.Wait();
                 var responseResult = response.Result;

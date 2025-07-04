@@ -50,15 +50,13 @@ namespace WebAPIPrj
                     ValidateIssuer = true,
                     ValidateAudience = true,
                     ValidateLifetime = true,
-                    ValidateIssuerSigningKey = true,
-
+                    ValidateIssuerSigningKey = true,                   
+                    
                     ValidIssuer = builder.Configuration["JWT:Issuer"],
                     ValidAudience = builder.Configuration["JWT:Audience"],
                     IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(secretKey))
-                };
+                };                
             });
-
-
 
             var app = builder.Build();
 
