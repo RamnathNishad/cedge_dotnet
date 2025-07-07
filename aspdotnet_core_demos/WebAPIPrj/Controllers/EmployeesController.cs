@@ -1,6 +1,8 @@
 ﻿using ADOLib;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using System.Text.Json;
+using WebAPIPrj.Models;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -8,7 +10,7 @@ namespace WebAPIPrj.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    [Authorize]
+    //[Authorize(Roles ="admin")]
     public class EmployeesController : ControllerBase
     {
         private readonly IEmployeesRepository dal;
@@ -20,6 +22,7 @@ namespace WebAPIPrj.Controllers
         // GET: api/<EmployeesController>
         [HttpGet]
         [Route("GetAllEmps")]
+       //[Authorize(Roles = "admin,guest")]
         public IActionResult Get()
         {
             try
@@ -35,6 +38,7 @@ namespace WebAPIPrj.Controllers
         // GET api/<EmployeesController>/5
         [HttpGet]
         [Route("GetEmpById/{id:int}")]
+        //[Authorize(Roles = "admin,guest")]
         public IActionResult GetEmpById(int id)
         {
             try
@@ -49,6 +53,7 @@ namespace WebAPIPrj.Controllers
 
         [HttpGet]
         [Route("GetEmpsByDeptId/{id:int}")]
+        //[Authorize(Roles = "admin,guest")]
         public IActionResult GetEmpsByDeptId(int id)
         {
             try
@@ -66,8 +71,14 @@ namespace WebAPIPrj.Controllers
         // POST api/<EmployeesController>
         [HttpPost]
         [Route("AddEmployee")]
-        public IActionResult Post([FromBody] Employee emp)
+        //[Authorize(Roles = "admin")]
+        public IActionResult Post([FromBody] string data)
         {
+            AesEncryptionHelper helper = new AesEncryptionHelper();
+            string empStr=helper.Decrypt(data);
+
+
+            Employee emp = JsonSerializer.Deserialize<Employee>(empStr); ;
             try
             {
                 dal.AddEmployee(emp);
@@ -82,6 +93,7 @@ namespace WebAPIPrj.Controllers
         // PUT api/<EmployeesController>/5
         [HttpPut]
         [Route("UpdateEmp/{id}")]
+        //[Authorize(Roles = "admin")]
         public IActionResult Put(int id, [FromBody] Employee emp)
         {
             try
@@ -98,6 +110,7 @@ namespace WebAPIPrj.Controllers
         // DELETE api/<EmployeesController>/5
         [HttpDelete]
         [Route("DeleteEmp/{id}")]
+        //[Authorize(Roles = "admin")]
         public IActionResult Delete(int id)
         {
             try

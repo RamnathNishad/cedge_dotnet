@@ -18,6 +18,13 @@
                 @Html.TextBox("password")
             </td>
         </tr>
+        <tr>
+            <th>Select role:</th>
+            <td>
+                @Html.RadioButton("role","admin")Admin
+                @Html.RadioButton("role", "guest")Guest
+            </td>
+        </tr>
     </table>
     <input type="submit" value="Login" class="btn btn-warning" />
 }

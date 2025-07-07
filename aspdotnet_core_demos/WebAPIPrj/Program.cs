@@ -39,25 +39,26 @@ namespace WebAPIPrj
 
             //configure GlobalException Middleware
             builder.Services.AddScoped<GlobalExceptionHandler>();
-
+           
             var secretKey = builder.Configuration["JWT:Key"];
 
-            builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
-            .AddJwtBearer(options =>
-            {
-                options.TokenValidationParameters = new TokenValidationParameters
-                {
-                    ValidateIssuer = true,
-                    ValidateAudience = true,
-                    ValidateLifetime = true,
-                    ValidateIssuerSigningKey = true,                   
-                    
-                    ValidIssuer = builder.Configuration["JWT:Issuer"],
-                    ValidAudience = builder.Configuration["JWT:Audience"],
-                    IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(secretKey))
-                };                
-            });
+            //builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+            //.AddJwtBearer(options =>
+            //{
+            //    options.TokenValidationParameters = new TokenValidationParameters
+            //    {
+            //        ValidateIssuer = true,
+            //        ValidateAudience = true,
+            //        ValidateLifetime = true,
+            //        ValidateIssuerSigningKey = true,                   
 
+            //        ValidIssuer = builder.Configuration["JWT:Issuer"],
+            //        ValidAudience = builder.Configuration["JWT:Audience"],
+            //        IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(secretKey))
+            //    };                
+            //});
+
+            
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.
@@ -68,16 +69,15 @@ namespace WebAPIPrj
             }
 
             //use authentication and in this sequence only
-            app.UseAuthentication();
+            //app.UseAuthentication();
             app.UseAuthorization();
 
 
             app.MapControllers();
 
             //use CORS policy
-            app.UseCors("clients-allowed");
-            //use GlobalException Middleware
-            app.UseMiddleware<GlobalExceptionHandler>();
+            app.UseCors("clients-allowed");                       
+
             app.Run();
         }
     }

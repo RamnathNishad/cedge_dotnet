@@ -615,10 +615,77 @@ we need to install following packages:
 
 3) Add Authentication middleware for jWt bearer token and specify what are the parameters to be checked in token.
 
+
+=========================Role-based Authentication==========================
+Claims----->Role and custom claims based authentication and authorization.
+
+
  
 
+Authentication Cookie in the browser to give access to the users using login page.
+
+steps:-
+1) whenever user access any MVC pages, application will check if cookie token of user is there or not.
+2) if cookie is not there, it will redirect automatically to Login page(View)
+3) Once it goes to login then after credential is validated, its auth cookie will be (signin)stored in the browser
+4) U shud remove the auth cookie from the session when user is logged off
+   
 
 
+Session end event:-
+ASP.NET Core is session less at server, no session is maintained. It uses Session cookie at client-side.
+
+We can use Custom Middleware to execute some logic to perform some session end task.
+
+user---sends request at 2:00pm--------> u will note the timing
+let's say user did not send any request to server for 10 min so u want to clear the session or perform some logic at server.
+user----sends request after 2:10 pm-----> u will note the timing 
+
+difference of time is 10 minutes for the user
+
+
+
+
+
+
+
+
+Session_End
+Session_Start
+
+
+
+
+===========================Unit Testing======================
+//AAA
+
+//A -> Arrange i.e. arranging all the details needed to test a method
+
+
+//A -> Act i.e. Acting means executing the method with all the details 
+
+
+//A -> Assert i.e.  Checking the expected and actual result to decide whether this test case is failed or success.
+
+=============Mocking the dependency in unit test==================
+The dependency objects or components needs to be mocked for their instances.
+
+We need to install a package "Moq" and it gives u the Mock<T> 
+
+
+
+
+
+
+
+
+
+
+
+
+NUnit
+MS Test
+xUnit
 
 
 

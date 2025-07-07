@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Authorization;
 
 namespace ADODemoMVC.Controllers
 {
+    [Authorize]
     public class HomeController : Controller
     {
         private readonly IMapper mapper;
@@ -24,7 +25,6 @@ namespace ADODemoMVC.Controllers
             var lstEmps=mapper.Map<List<Employee>>(dtoEmps);
 
             ViewBag.TotalSalary = 0;// totalSalary;
-
             return View(lstEmps);
         }
 

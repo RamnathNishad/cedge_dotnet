@@ -3,20 +3,16 @@
   "WorkspaceRootPath": "D:\\CEdge_Dotnet\\cedge_dotnet\\aspdotnet_core_demos\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{D0C4FFE1-5055-4406-BC46-3F415EB5AD21}|TestProject1API\\TestProject1API.csproj|d:\\cedge_dotnet\\cedge_dotnet\\aspdotnet_core_demos\\testproject1api\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0C4FFE1-5055-4406-BC46-3F415EB5AD21}|TestProject1API\\TestProject1API.csproj|solutionrelative:testproject1api\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{AE46AEFB-17A0-4A39-91EF-F8CD1E46D222}|WebAPIPrj\\WebAPIPrj.csproj|d:\\cedge_dotnet\\cedge_dotnet\\aspdotnet_core_demos\\webapiprj\\controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AE46AEFB-17A0-4A39-91EF-F8CD1E46D222}|WebAPIPrj\\WebAPIPrj.csproj|solutionrelative:webapiprj\\controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0ED54793-A587-4AC5-B321-9F4256F08069}|ADODemoMVC\\ADODemoMVC.csproj|d:\\cedge_dotnet\\cedge_dotnet\\aspdotnet_core_demos\\adodemomvc\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0ED54793-A587-4AC5-B321-9F4256F08069}|ADODemoMVC\\ADODemoMVC.csproj|solutionrelative:adodemomvc\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0ED54793-A587-4AC5-B321-9F4256F08069}|ADODemoMVC\\ADODemoMVC.csproj|d:\\cedge_dotnet\\cedge_dotnet\\aspdotnet_core_demos\\adodemomvc\\models\\apiconsumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0ED54793-A587-4AC5-B321-9F4256F08069}|ADODemoMVC\\ADODemoMVC.csproj|solutionrelative:adodemomvc\\models\\apiconsumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0ED54793-A587-4AC5-B321-9F4256F08069}|ADODemoMVC\\ADODemoMVC.csproj|d:\\cedge_dotnet\\cedge_dotnet\\aspdotnet_core_demos\\adodemomvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0ED54793-A587-4AC5-B321-9F4256F08069}|ADODemoMVC\\ADODemoMVC.csproj|solutionrelative:adodemomvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{16BF68BD-53A8-4578-9134-66A0381423FF}|ADOLib\\ADOLib.csproj|d:\\cedge_dotnet\\cedge_dotnet\\aspdotnet_core_demos\\adolib\\employeedataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16BF68BD-53A8-4578-9134-66A0381423FF}|ADOLib\\ADOLib.csproj|solutionrelative:adolib\\employeedataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0ED54793-A587-4AC5-B321-9F4256F08069}|ADODemoMVC\\ADODemoMVC.csproj|d:\\cedge_dotnet\\cedge_dotnet\\aspdotnet_core_demos\\adodemomvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -25,10 +21,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{AE46AEFB-17A0-4A39-91EF-F8CD1E46D222}|WebAPIPrj\\WebAPIPrj.csproj|d:\\cedge_dotnet\\cedge_dotnet\\aspdotnet_core_demos\\webapiprj\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AE46AEFB-17A0-4A39-91EF-F8CD1E46D222}|WebAPIPrj\\WebAPIPrj.csproj|solutionrelative:webapiprj\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AE46AEFB-17A0-4A39-91EF-F8CD1E46D222}|WebAPIPrj\\WebAPIPrj.csproj|d:\\cedge_dotnet\\cedge_dotnet\\aspdotnet_core_demos\\webapiprj\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AE46AEFB-17A0-4A39-91EF-F8CD1E46D222}|WebAPIPrj\\WebAPIPrj.csproj|solutionrelative:webapiprj\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,93 +38,67 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\CEdge_Dotnet\\cedge_dotnet\\aspdotnet_core_demos\\ADODemoMVC\\Program.cs",
-              "RelativeDocumentMoniker": "ADODemoMVC\\Program.cs",
-              "ToolTip": "D:\\CEdge_Dotnet\\cedge_dotnet\\aspdotnet_core_demos\\ADODemoMVC\\Program.cs",
-              "RelativeToolTip": "ADODemoMVC\\Program.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAywBcAAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-04T03:44:45.693Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "D:\\CEdge_Dotnet\\cedge_dotnet\\aspdotnet_core_demos\\ADODemoMVC\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "ADODemoMVC\\Controllers\\HomeController.cs",
-              "ToolTip": "D:\\CEdge_Dotnet\\cedge_dotnet\\aspdotnet_core_demos\\ADODemoMVC\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "ADODemoMVC\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAHIAAAAAAAAAAAA1wBIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-03T10:50:54.81Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "ApiConsumer.cs",
-              "DocumentMoniker": "D:\\CEdge_Dotnet\\cedge_dotnet\\aspdotnet_core_demos\\ADODemoMVC\\Models\\ApiConsumer.cs",
-              "RelativeDocumentMoniker": "ADODemoMVC\\Models\\ApiConsumer.cs",
-              "ToolTip": "D:\\CEdge_Dotnet\\cedge_dotnet\\aspdotnet_core_demos\\ADODemoMVC\\Models\\ApiConsumer.cs",
-              "RelativeToolTip": "ADODemoMVC\\Models\\ApiConsumer.cs",
-              "ViewState": "AgIAAIkAAAAAAAAAAAAkwCYAAAAMAAAAAAAAAA==",
+              "Title": "EmployeeDataAccess.cs",
+              "DocumentMoniker": "D:\\CEdge_Dotnet\\cedge_dotnet\\aspdotnet_core_demos\\ADOLib\\EmployeeDataAccess.cs",
+              "RelativeDocumentMoniker": "ADOLib\\EmployeeDataAccess.cs",
+              "ToolTip": "D:\\CEdge_Dotnet\\cedge_dotnet\\aspdotnet_core_demos\\ADOLib\\EmployeeDataAccess.cs",
+              "RelativeToolTip": "ADOLib\\EmployeeDataAccess.cs",
+              "ViewState": "AgIAAFUAAAAAAAAAAAA+wHcAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-04T03:35:35.045Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AccountController.cs",
-              "DocumentMoniker": "D:\\CEdge_Dotnet\\cedge_dotnet\\aspdotnet_core_demos\\ADODemoMVC\\Controllers\\AccountController.cs",
-              "RelativeDocumentMoniker": "ADODemoMVC\\Controllers\\AccountController.cs",
-              "ToolTip": "D:\\CEdge_Dotnet\\cedge_dotnet\\aspdotnet_core_demos\\ADODemoMVC\\Controllers\\AccountController.cs",
-              "RelativeToolTip": "ADODemoMVC\\Controllers\\AccountController.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAA1wB0AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-03T10:52:31.896Z",
+              "WhenOpened": "2025-07-07T10:28:54.139Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "EmployeesController.cs",
-              "DocumentMoniker": "D:\\CEdge_Dotnet\\cedge_dotnet\\aspdotnet_core_demos\\WebAPIPrj\\Controllers\\EmployeesController.cs",
-              "RelativeDocumentMoniker": "WebAPIPrj\\Controllers\\EmployeesController.cs",
-              "ToolTip": "D:\\CEdge_Dotnet\\cedge_dotnet\\aspdotnet_core_demos\\WebAPIPrj\\Controllers\\EmployeesController.cs",
-              "RelativeToolTip": "WebAPIPrj\\Controllers\\EmployeesController.cs",
-              "ViewState": "AgIAAFsAAAAAAAAAAAAuwD8AAAAJAAAAAAAAAA==",
+              "Title": "UnitTest1.cs",
+              "DocumentMoniker": "D:\\CEdge_Dotnet\\cedge_dotnet\\aspdotnet_core_demos\\TestProject1API\\UnitTest1.cs",
+              "RelativeDocumentMoniker": "TestProject1API\\UnitTest1.cs",
+              "ToolTip": "D:\\CEdge_Dotnet\\cedge_dotnet\\aspdotnet_core_demos\\TestProject1API\\UnitTest1.cs",
+              "RelativeToolTip": "TestProject1API\\UnitTest1.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAAACgAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-03T16:49:50.805Z",
+              "WhenOpened": "2025-07-07T09:55:21.45Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "AccountController.cs",
-              "DocumentMoniker": "D:\\CEdge_Dotnet\\cedge_dotnet\\aspdotnet_core_demos\\WebAPIPrj\\Controllers\\AccountController.cs",
-              "RelativeDocumentMoniker": "WebAPIPrj\\Controllers\\AccountController.cs",
-              "ToolTip": "D:\\CEdge_Dotnet\\cedge_dotnet\\aspdotnet_core_demos\\WebAPIPrj\\Controllers\\AccountController.cs",
-              "RelativeToolTip": "WebAPIPrj\\Controllers\\AccountController.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAIBAwCUAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-03T16:51:43.43Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\CEdge_Dotnet\\cedge_dotnet\\aspdotnet_core_demos\\WebAPIPrj\\Program.cs",
               "RelativeDocumentMoniker": "WebAPIPrj\\Program.cs",
               "ToolTip": "D:\\CEdge_Dotnet\\cedge_dotnet\\aspdotnet_core_demos\\WebAPIPrj\\Program.cs",
               "RelativeToolTip": "WebAPIPrj\\Program.cs",
-              "ViewState": "AgIAACoAAAAAAAAAAIAywDoAAAASAAAAAAAAAA==",
+              "ViewState": "AgIAABkAAAAAAAAAAAAywCkAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-02T09:22:24.098Z",
+              "WhenOpened": "2025-07-07T09:37:52.286Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\CEdge_Dotnet\\cedge_dotnet\\aspdotnet_core_demos\\ADODemoMVC\\Program.cs",
+              "RelativeDocumentMoniker": "ADODemoMVC\\Program.cs",
+              "ToolTip": "D:\\CEdge_Dotnet\\cedge_dotnet\\aspdotnet_core_demos\\ADODemoMVC\\Program.cs",
+              "RelativeToolTip": "ADODemoMVC\\Program.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAywCoAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-07T09:36:13.972Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EmployeesController.cs",
+              "DocumentMoniker": "D:\\CEdge_Dotnet\\cedge_dotnet\\aspdotnet_core_demos\\WebAPIPrj\\Controllers\\EmployeesController.cs",
+              "RelativeDocumentMoniker": "WebAPIPrj\\Controllers\\EmployeesController.cs",
+              "ToolTip": "D:\\CEdge_Dotnet\\cedge_dotnet\\aspdotnet_core_demos\\WebAPIPrj\\Controllers\\EmployeesController.cs",
+              "RelativeToolTip": "WebAPIPrj\\Controllers\\EmployeesController.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAAACwAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-07T08:52:24.941Z",
               "EditorCaption": ""
             }
           ]

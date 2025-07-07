@@ -1,6 +1,7 @@
 using ADODemoMVC.Models;
 using ADOLib;
 using AutoMapper;
+using WebAPIPrj.Models;
 
 namespace ADODemoMVC
 {
@@ -23,7 +24,23 @@ namespace ADODemoMVC
             //add this mapper to the services
             builder.Services.AddSingleton(mapper);
 
-            builder.Services.AddSession();
+            builder.Services.AddSession(options =>
+            {
+                //options.IdleTimeout = new TimeSpan(0,0,10);
+                
+            });
+
+            builder.Services.AddAuthentication("MyCookieAuth")
+                .AddCookie("MyCookieAuth", options =>
+                {
+                    options.LoginPath = "/Account/Login";
+                    //options.ExpireTimeSpan = new TimeSpan(0, 0, 10);
+                    //options.SlidingExpiration = false;
+                });
+
+            builder.Services.AddAuthorization();
+
+            builder.Services.AddScoped<MySessionHandler>();
 
             var app = builder.Build();
 
@@ -36,6 +53,7 @@ namespace ADODemoMVC
 
             app.UseRouting();
 
+            app.UseAuthentication();
             app.UseAuthorization();
 
             app.MapControllerRoute(
@@ -43,6 +61,8 @@ namespace ADODemoMVC
                 pattern: "{controller=Home}/{action=Index}/{id?}");
 
             app.UseSession();
+
+            app.UseMiddleware<MySessionHandler>();
             app.Run();
         }
     }

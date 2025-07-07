@@ -7,7 +7,7 @@
         "Action": "Start"
       },
       {
-        "Path": "ADODemoMVC\\ADODemoMVC.csproj",
+        "Path": "TestProject1API\\TestProject1API.csproj",
         "Action": "Start"
       }
     ]

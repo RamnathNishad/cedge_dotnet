@@ -23,24 +23,31 @@ namespace WebAPIPrj.Controllers
         [Route("authenticate")]
         public IActionResult Authenticate(UserDetails user)
         {           
-            if (user.username == "admin" && user.password == "admin123") //use DAL layer to check from DB
+            if (user.username == "admin" && user.password == "admin123" && user.role=="admin") //use DAL layer to check from DB
             {
                 //generate the token if user is valid
-                var token = GetToken(user.username, user.password);
+                var token = GetToken(user.username, user.password, user.role);
                 return Ok(token);
             }
             else
             {
-                return null;
+                return BadRequest("invalid");
             }            
         }
-        private string GetToken(string username,string password)
-        {           
+        private string GetToken(string username,string password,string role)
+        {
+            var claims = new List<Claim>
+            {
+                new Claim(ClaimTypes.NameIdentifier, username),
+                new Claim(ClaimTypes.Role, role),
+                //new Claim("petname","shitzu")
+            };
             var secretKey = config["JWT:Key"];
             var tokenDescriptor = new JwtSecurityToken(            
                 issuer : config["JWT:Issuer"],
                 audience: config["JWT:Audience"],
                 expires:DateTime.UtcNow.AddMinutes(1),
+                claims: claims,
                 signingCredentials:new SigningCredentials(new SymmetricSecurityKey(Encoding.UTF8.GetBytes(secretKey)),SecurityAlgorithms.HmacSha256Signature)
                 );
 

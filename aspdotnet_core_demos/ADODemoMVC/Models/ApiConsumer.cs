@@ -1,5 +1,8 @@
 ﻿using ADOLib;
 using AutoMapper;
+using Newtonsoft.Json;
+
+using Newtonsoft.Json;
 using NuGet.Common;
 using System.Text.Json;
 
@@ -10,14 +13,14 @@ namespace ADODemoMVC.Models
 
         static string baseUrl = "http://localhost:5142/api/Employees/";
         
-        public string Authenticate(string uname,string pwd)
+        public string Authenticate(string uname,string pwd,string userRole)
         {
             //call the login api authenticate method
             string baseAddress = "http://localhost:5142/api/Account/authenticate";
             using (HttpClient client = new HttpClient())
             {
                 client.BaseAddress = new Uri(baseAddress);
-                var response=client.PostAsJsonAsync("", new { username = uname, password = pwd });
+                var response=client.PostAsJsonAsync("", new { username = uname, password = pwd ,role=userRole});
                 response.Wait();
                 
                 var result=response.Result;
@@ -58,7 +61,7 @@ namespace ADODemoMVC.Models
                     //get the data records
                     var dataStr = data.Result;
                     //convert the json string into object
-                    dtoLst=JsonSerializer.Deserialize<List<DtoEmployee>>(dataStr);
+                    dtoLst=System.Text.Json.JsonSerializer.Deserialize<List<DtoEmployee>>(dataStr);
  
                     ////configure and create mapper object
                     //MapperConfiguration config = new MapperConfiguration(c => c.CreateMap<DtoEmployee,Employee>());
@@ -69,7 +72,11 @@ namespace ADODemoMVC.Models
                 }
                 else
                 {
-                    throw new Exception("some server error");
+                    var dataErr = responseResult.Content.ReadAsStringAsync();
+                    dataErr.Wait();
+                    //get the data records
+                    var dataErrStr = dataErr.Result;
+                    throw new Exception("some server error:"+ dataErrStr);
                 }
             }
 
@@ -83,8 +90,8 @@ namespace ADODemoMVC.Models
                 http.BaseAddress = new Uri(baseUrl);
                 //attach bearer token to the Http authorization header
                 http.DefaultRequestHeaders.Add("Authorization", $"Bearer {token}");
-
-                var response = http.PostAsJsonAsync("AddEmployee", employee);
+                var encryptedEmployee = new AesEncryptionHelper().Encrypt(JsonConvert.SerializeObject(employee));
+                var response = http.PostAsJsonAsync("AddEmployee", encryptedEmployee);
                 response.Wait();
                 var responseResult = response.Result;
                 if (responseResult.IsSuccessStatusCode)
@@ -157,7 +164,7 @@ namespace ADODemoMVC.Models
                     //get the data record
                     var dataStr = data.Result;
                     //convert the json string into object
-                    dto = JsonSerializer.Deserialize<DtoEmployee>(dataStr);
+                    dto = System.Text.Json.JsonSerializer.Deserialize<DtoEmployee>(dataStr);
                 }
                 else
                 {
