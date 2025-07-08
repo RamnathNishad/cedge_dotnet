@@ -68,6 +68,21 @@ namespace WebAPIPrj.Controllers
             }
         }
 
+        [HttpGet]
+        [Route("GetEmpByEcodeAndDeptid/{ecode:int}/{deptid:int}")]
+        //[Authorize(Roles = "admin,guest")]
+        public IActionResult GetEmpByEcodeAndDeptid(int ecode, int deptid)
+        {
+            try
+            {
+                return Ok(dal.GetEmployeeByEcodeAndDeptid(ecode, deptid));
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        }
+
         // POST api/<EmployeesController>
         [HttpPost]
         [Route("AddEmployee")]

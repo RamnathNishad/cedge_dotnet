@@ -148,6 +148,39 @@ namespace ADOLib
             }
         }
 
+        public Employee GetEmployeeByEcodeAndDeptid(int ecode, int deptid)
+        {
+            cmd = new SqlCommand();
+            cmd.CommandType = CommandType.Text;
+            cmd.CommandText = "select ecode, ename, salary, deptid from employees where ecode = @ec and deptid = @did";
+
+            cmd.Parameters.Clear();
+            cmd.Parameters.AddWithValue("@ec", ecode);
+            cmd.Parameters.AddWithValue("@did", deptid);
+
+            cmd.Connection = con;
+
+            con.Open();
+            SqlDataReader sdr = cmd.ExecuteReader();
+            if (sdr.Read())
+            {
+                var emp = new Employee
+                {
+                    Ecode = sdr.GetInt32(0),
+                    Ename = sdr.GetString(1),
+                    Salary = sdr.GetInt32(2),
+                    Deptid = sdr.GetInt32(3)
+                };
+                con.Close();
+                return emp;
+            }
+            else
+            {
+                con.Close();
+                throw new Exception("Employee not found with given ecode and deptid");
+            }
+        }
+
         public void UpdateEmployee(Employee employee)
         {
             //configure command for UPDATE

@@ -14,6 +14,7 @@ namespace ADOLib
 
         List<Employee> GetAllEmps();
         Employee GetEmployee(int ecode);
+        Employee GetEmployeeByEcodeAndDeptid(int ecode, int deptid);
 
         int PlaceOrder(int amount, int quantity);
 
