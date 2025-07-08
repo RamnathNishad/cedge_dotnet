@@ -15,7 +15,7 @@ Request------->Controller------>Action Method--------> Response[(View=Html+CS+Da
 View file extension .cshtml
 
 
-===================Types of Views========================
+===================Types of Views in ASP.NET Core MVC========================
 1) Weakly-typed view:- No Model is binded with the view
 
 2) Stronlgy-typed view:- Model binded with the view
