@@ -1,0 +1,28 @@
+﻿{
+    "Routes":[
+        {
+            "UpstreamPathTemplate": "/FetchEmps",
+            "UpstreamHttpMethod": [ "Get" ],
+            "DownstreamScheme": "http",
+            "DownstreamHostAndPorts": [
+            {
+                "Host": "localhost",
+                "Port": 5230
+            }
+           ],
+           "DownstreamPathTemplate": "/api/Employee/GetEmps"
+        },
+        {
+            "UpstreamPathTemplate": "/FetchDepartments",
+            "UpstreamHttpMethod": [ "Get" ],
+            "DownstreamScheme": "http",
+            "DownstreamHostAndPorts": [
+            {
+                "Host": "localhost",
+                "Port": 5105
+            }
+           ],
+           "DownstreamPathTemplate": "/api/Department/GetDepts"
+        }
+    ]
+}
