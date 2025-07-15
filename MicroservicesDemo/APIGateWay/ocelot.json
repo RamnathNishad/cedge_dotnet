@@ -1,28 +1,68 @@
 ﻿{
-    "Routes":[
+  "Routes": [
+    {
+      "UpstreamPathTemplate": "/FetchEmps",
+      "UpstreamHttpMethod": [ "Get" ],
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer"
+      },
+
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
         {
-            "UpstreamPathTemplate": "/FetchEmps",
-            "UpstreamHttpMethod": [ "Get" ],
-            "DownstreamScheme": "http",
-            "DownstreamHostAndPorts": [
-            {
-                "Host": "localhost",
-                "Port": 5230
-            }
-           ],
-           "DownstreamPathTemplate": "/api/Employee/GetEmps"
-        },
-        {
-            "UpstreamPathTemplate": "/FetchDepartments",
-            "UpstreamHttpMethod": [ "Get" ],
-            "DownstreamScheme": "http",
-            "DownstreamHostAndPorts": [
-            {
-                "Host": "localhost",
-                "Port": 5105
-            }
-           ],
-           "DownstreamPathTemplate": "/api/Department/GetDepts"
+          "Host": "localhost",
+          "Port": 5230
         }
-    ]
+      ],
+      "DownstreamPathTemplate": "/api/Employee/GetEmps"
+    },
+    {
+      "UpstreamPathTemplate": "/FetchDepartments",
+      "UpstreamHttpMethod": [ "Get" ],
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5105
+        }
+      ],
+      "DownstreamPathTemplate": "/api/Department/GetDepts"
+    },
+    {
+      "UpstreamPathTemplate": "/InsertEmployee",
+      "UpstreamHttpMethod": [ "POST" ],
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5230
+        }
+      ],
+      "DownstreamPathTemplate": "/api/Employee/AddEmployee"
+    },
+    {
+      "UpstreamPathTemplate": "/UpdateEmployee/{id}",
+      "UpstreamHttpMethod": [ "PUT" ],
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5230
+        }
+      ],
+      "DownstreamPathTemplate": "/api/Employee/UpdateEmp/{id}"
+    },
+    {
+      "UpstreamPathTemplate": "/RemoveEmployee/{id}",
+      "UpstreamHttpMethod": [ "DELETE" ],
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5230
+        }
+      ],
+      "DownstreamPathTemplate": "/api/Employee/delete/{id}"
+    }
+  ]
 }

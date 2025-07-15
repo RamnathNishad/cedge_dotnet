@@ -3,28 +3,35 @@
   "WorkspaceRootPath": "D:\\CEdge_Dotnet\\cedge_dotnet\\aspdotnet_core_demos\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0ED54793-A587-4AC5-B321-9F4256F08069}|ADODemoMVC\\ADODemoMVC.csproj|d:\\cedge_dotnet\\cedge_dotnet\\aspdotnet_core_demos\\adodemomvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0ED54793-A587-4AC5-B321-9F4256F08069}|ADODemoMVC\\ADODemoMVC.csproj|solutionrelative:adodemomvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{34856894-2417-4E7D-BA12-07C6BF2941E8}|EFDatabaseFirstApproachDemo\\EFDatabaseFirstApproachDemo.csproj|d:\\cedge_dotnet\\cedge_dotnet\\aspdotnet_core_demos\\efdatabasefirstapproachdemo\\controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34856894-2417-4E7D-BA12-07C6BF2941E8}|EFDatabaseFirstApproachDemo\\EFDatabaseFirstApproachDemo.csproj|solutionrelative:efdatabasefirstapproachdemo\\controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AE46AEFB-17A0-4A39-91EF-F8CD1E46D222}|WebAPIPrj\\WebAPIPrj.csproj|d:\\cedge_dotnet\\cedge_dotnet\\aspdotnet_core_demos\\webapiprj\\controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AE46AEFB-17A0-4A39-91EF-F8CD1E46D222}|WebAPIPrj\\WebAPIPrj.csproj|solutionrelative:webapiprj\\controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/ShoppingDB/True/SqlTable/dbo.Products.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AE46AEFB-17A0-4A39-91EF-F8CD1E46D222}|WebAPIPrj\\WebAPIPrj.csproj|d:\\cedge_dotnet\\cedge_dotnet\\aspdotnet_core_demos\\webapiprj\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AE46AEFB-17A0-4A39-91EF-F8CD1E46D222}|WebAPIPrj\\WebAPIPrj.csproj|solutionrelative:webapiprj\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\CEdge_Dotnet\\cedge_dotnet\\aspdotnet_core_demos\\CodeFirstEFCoreDemo\\Migrations\\20250715114104_product_item_tbl_created.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CodeFirstEFCoreDemo\\Migrations\\20250715114104_product_item_tbl_created.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D0C4FFE1-5055-4406-BC46-3F415EB5AD21}|TestProject1API\\TestProject1API.csproj|d:\\cedge_dotnet\\cedge_dotnet\\aspdotnet_core_demos\\testproject1api\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D0C4FFE1-5055-4406-BC46-3F415EB5AD21}|TestProject1API\\TestProject1API.csproj|solutionrelative:testproject1api\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2B789A2C-34CE-4CAB-9F48-73B490C4D41F}|CodeFirstEFCoreDemo\\CodeFirstEFCoreDemo.csproj|d:\\cedge_dotnet\\cedge_dotnet\\aspdotnet_core_demos\\codefirstefcoredemo\\models\\shoppingdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B789A2C-34CE-4CAB-9F48-73B490C4D41F}|CodeFirstEFCoreDemo\\CodeFirstEFCoreDemo.csproj|solutionrelative:codefirstefcoredemo\\models\\shoppingdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0ED54793-A587-4AC5-B321-9F4256F08069}|ADODemoMVC\\ADODemoMVC.csproj|d:\\cedge_dotnet\\cedge_dotnet\\aspdotnet_core_demos\\adodemomvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0ED54793-A587-4AC5-B321-9F4256F08069}|ADODemoMVC\\ADODemoMVC.csproj|solutionrelative:adodemomvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2B789A2C-34CE-4CAB-9F48-73B490C4D41F}|CodeFirstEFCoreDemo\\CodeFirstEFCoreDemo.csproj|d:\\cedge_dotnet\\cedge_dotnet\\aspdotnet_core_demos\\codefirstefcoredemo\\models\\productitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B789A2C-34CE-4CAB-9F48-73B490C4D41F}|CodeFirstEFCoreDemo\\CodeFirstEFCoreDemo.csproj|solutionrelative:codefirstefcoredemo\\models\\productitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AE46AEFB-17A0-4A39-91EF-F8CD1E46D222}|WebAPIPrj\\WebAPIPrj.csproj|d:\\cedge_dotnet\\cedge_dotnet\\aspdotnet_core_demos\\webapiprj\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AE46AEFB-17A0-4A39-91EF-F8CD1E46D222}|WebAPIPrj\\WebAPIPrj.csproj|solutionrelative:webapiprj\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2B789A2C-34CE-4CAB-9F48-73B490C4D41F}|CodeFirstEFCoreDemo\\CodeFirstEFCoreDemo.csproj|d:\\cedge_dotnet\\cedge_dotnet\\aspdotnet_core_demos\\codefirstefcoredemo\\models\\productcs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B789A2C-34CE-4CAB-9F48-73B490C4D41F}|CodeFirstEFCoreDemo\\CodeFirstEFCoreDemo.csproj|solutionrelative:codefirstefcoredemo\\models\\productcs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\CEdge_Dotnet\\cedge_dotnet\\aspdotnet_core_demos\\CodeFirstEFCoreDemo\\Migrations\\20250715112225_initial_create.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CodeFirstEFCoreDemo\\Migrations\\20250715112225_initial_create.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B789A2C-34CE-4CAB-9F48-73B490C4D41F}|CodeFirstEFCoreDemo\\CodeFirstEFCoreDemo.csproj|d:\\cedge_dotnet\\cedge_dotnet\\aspdotnet_core_demos\\codefirstefcoredemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B789A2C-34CE-4CAB-9F48-73B490C4D41F}|CodeFirstEFCoreDemo\\CodeFirstEFCoreDemo.csproj|solutionrelative:codefirstefcoredemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,7 +41,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,78 +49,103 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "dbo.Products [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/ShoppingDB/True/SqlTable/dbo.Products.sql",
+              "ToolTip": "dbo.Products [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-07-15T11:47:35.56Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "D:\\CEdge_Dotnet\\cedge_dotnet\\aspdotnet_core_demos\\ADODemoMVC\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "ADODemoMVC\\Controllers\\HomeController.cs",
-              "ToolTip": "D:\\CEdge_Dotnet\\cedge_dotnet\\aspdotnet_core_demos\\ADODemoMVC\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "ADODemoMVC\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAACkAAAAAAAAAAAA1wCwAAAAqAAAAAAAAAA==",
+              "Title": "EmployeesController.cs",
+              "DocumentMoniker": "D:\\CEdge_Dotnet\\cedge_dotnet\\aspdotnet_core_demos\\EFDatabaseFirstApproachDemo\\Controllers\\EmployeesController.cs",
+              "RelativeDocumentMoniker": "EFDatabaseFirstApproachDemo\\Controllers\\EmployeesController.cs",
+              "ToolTip": "D:\\CEdge_Dotnet\\cedge_dotnet\\aspdotnet_core_demos\\EFDatabaseFirstApproachDemo\\Controllers\\EmployeesController.cs",
+              "RelativeToolTip": "EFDatabaseFirstApproachDemo\\Controllers\\EmployeesController.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAIwBsAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-08T09:16:19.809Z",
+              "WhenOpened": "2025-07-15T11:44:52.411Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "AccountController.cs",
-              "DocumentMoniker": "D:\\CEdge_Dotnet\\cedge_dotnet\\aspdotnet_core_demos\\WebAPIPrj\\Controllers\\AccountController.cs",
-              "RelativeDocumentMoniker": "WebAPIPrj\\Controllers\\AccountController.cs",
-              "ToolTip": "D:\\CEdge_Dotnet\\cedge_dotnet\\aspdotnet_core_demos\\WebAPIPrj\\Controllers\\AccountController.cs",
-              "RelativeToolTip": "WebAPIPrj\\Controllers\\AccountController.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAABMAAAAJAAAAAAAAAA==",
+              "Title": "20250715114104_product_item_tbl_created.cs",
+              "DocumentMoniker": "D:\\CEdge_Dotnet\\cedge_dotnet\\aspdotnet_core_demos\\CodeFirstEFCoreDemo\\Migrations\\20250715114104_product_item_tbl_created.cs",
+              "RelativeDocumentMoniker": "CodeFirstEFCoreDemo\\Migrations\\20250715114104_product_item_tbl_created.cs",
+              "ToolTip": "D:\\CEdge_Dotnet\\cedge_dotnet\\aspdotnet_core_demos\\CodeFirstEFCoreDemo\\Migrations\\20250715114104_product_item_tbl_created.cs",
+              "RelativeToolTip": "CodeFirstEFCoreDemo\\Migrations\\20250715114104_product_item_tbl_created.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAywBUAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-08T08:55:26.17Z",
+              "WhenOpened": "2025-07-15T11:41:04.869Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProductItem.cs",
+              "DocumentMoniker": "D:\\CEdge_Dotnet\\cedge_dotnet\\aspdotnet_core_demos\\CodeFirstEFCoreDemo\\Models\\ProductItem.cs",
+              "RelativeDocumentMoniker": "CodeFirstEFCoreDemo\\Models\\ProductItem.cs",
+              "ToolTip": "D:\\CEdge_Dotnet\\cedge_dotnet\\aspdotnet_core_demos\\CodeFirstEFCoreDemo\\Models\\ProductItem.cs",
+              "RelativeToolTip": "CodeFirstEFCoreDemo\\Models\\ProductItem.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAAAAQAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T11:37:01.591Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "20250715112225_initial_create.cs",
+              "DocumentMoniker": "D:\\CEdge_Dotnet\\cedge_dotnet\\aspdotnet_core_demos\\CodeFirstEFCoreDemo\\Migrations\\20250715112225_initial_create.cs",
+              "RelativeDocumentMoniker": "CodeFirstEFCoreDemo\\Migrations\\20250715112225_initial_create.cs",
+              "ToolTip": "D:\\CEdge_Dotnet\\cedge_dotnet\\aspdotnet_core_demos\\CodeFirstEFCoreDemo\\Migrations\\20250715112225_initial_create.cs",
+              "RelativeToolTip": "CodeFirstEFCoreDemo\\Migrations\\20250715112225_initial_create.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAiwA4AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T11:22:26.117Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\CEdge_Dotnet\\cedge_dotnet\\aspdotnet_core_demos\\CodeFirstEFCoreDemo\\Program.cs",
+              "RelativeDocumentMoniker": "CodeFirstEFCoreDemo\\Program.cs",
+              "ToolTip": "D:\\CEdge_Dotnet\\cedge_dotnet\\aspdotnet_core_demos\\CodeFirstEFCoreDemo\\Program.cs",
+              "RelativeToolTip": "CodeFirstEFCoreDemo\\Program.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAywBUAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T11:18:59.921Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "UnitTest1.cs",
-              "DocumentMoniker": "D:\\CEdge_Dotnet\\cedge_dotnet\\aspdotnet_core_demos\\TestProject1API\\UnitTest1.cs",
-              "RelativeDocumentMoniker": "TestProject1API\\UnitTest1.cs",
-              "ToolTip": "D:\\CEdge_Dotnet\\cedge_dotnet\\aspdotnet_core_demos\\TestProject1API\\UnitTest1.cs",
-              "RelativeToolTip": "TestProject1API\\UnitTest1.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAAAAC8AAAAAAAAAAAAAAA==",
+              "Title": "ShoppingDbContext.cs",
+              "DocumentMoniker": "D:\\CEdge_Dotnet\\cedge_dotnet\\aspdotnet_core_demos\\CodeFirstEFCoreDemo\\Models\\ShoppingDbContext.cs",
+              "RelativeDocumentMoniker": "CodeFirstEFCoreDemo\\Models\\ShoppingDbContext.cs",
+              "ToolTip": "D:\\CEdge_Dotnet\\cedge_dotnet\\aspdotnet_core_demos\\CodeFirstEFCoreDemo\\Models\\ShoppingDbContext.cs",
+              "RelativeToolTip": "CodeFirstEFCoreDemo\\Models\\ShoppingDbContext.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA0AAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-07T09:55:21.45Z",
+              "WhenOpened": "2025-07-15T11:16:23.811Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\CEdge_Dotnet\\cedge_dotnet\\aspdotnet_core_demos\\WebAPIPrj\\Program.cs",
-              "RelativeDocumentMoniker": "WebAPIPrj\\Program.cs",
-              "ToolTip": "D:\\CEdge_Dotnet\\cedge_dotnet\\aspdotnet_core_demos\\WebAPIPrj\\Program.cs",
-              "RelativeToolTip": "WebAPIPrj\\Program.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAywCkAAAALAAAAAAAAAA==",
+              "Title": "Productcs.cs",
+              "DocumentMoniker": "D:\\CEdge_Dotnet\\cedge_dotnet\\aspdotnet_core_demos\\CodeFirstEFCoreDemo\\Models\\Productcs.cs",
+              "RelativeDocumentMoniker": "CodeFirstEFCoreDemo\\Models\\Productcs.cs",
+              "ToolTip": "D:\\CEdge_Dotnet\\cedge_dotnet\\aspdotnet_core_demos\\CodeFirstEFCoreDemo\\Models\\Productcs.cs",
+              "RelativeToolTip": "CodeFirstEFCoreDemo\\Models\\Productcs.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-07T09:37:52.286Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\CEdge_Dotnet\\cedge_dotnet\\aspdotnet_core_demos\\ADODemoMVC\\Program.cs",
-              "RelativeDocumentMoniker": "ADODemoMVC\\Program.cs",
-              "ToolTip": "D:\\CEdge_Dotnet\\cedge_dotnet\\aspdotnet_core_demos\\ADODemoMVC\\Program.cs",
-              "RelativeToolTip": "ADODemoMVC\\Program.cs",
-              "ViewState": "AgIAACMAAAAAAAAAAAAywCoAAAA7AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-07T09:36:13.972Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "EmployeesController.cs",
-              "DocumentMoniker": "D:\\CEdge_Dotnet\\cedge_dotnet\\aspdotnet_core_demos\\WebAPIPrj\\Controllers\\EmployeesController.cs",
-              "RelativeDocumentMoniker": "WebAPIPrj\\Controllers\\EmployeesController.cs",
-              "ToolTip": "D:\\CEdge_Dotnet\\cedge_dotnet\\aspdotnet_core_demos\\WebAPIPrj\\Controllers\\EmployeesController.cs",
-              "RelativeToolTip": "WebAPIPrj\\Controllers\\EmployeesController.cs",
-              "ViewState": "AgIAADIAAAAAAAAAAAAAADoAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-07T08:52:24.941Z",
+              "WhenOpened": "2025-07-15T11:12:20.396Z",
               "EditorCaption": ""
             }
           ]

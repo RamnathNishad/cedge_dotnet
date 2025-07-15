@@ -15,6 +15,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPIPrj", "WebAPIPrj\WebA
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProject1API", "TestProject1API\TestProject1API.csproj", "{D0C4FFE1-5055-4406-BC46-3F415EB5AD21}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFDatabaseFirstApproachDemo", "EFDatabaseFirstApproachDemo\EFDatabaseFirstApproachDemo.csproj", "{34856894-2417-4E7D-BA12-07C6BF2941E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeFirstEFCoreDemo", "CodeFirstEFCoreDemo\CodeFirstEFCoreDemo.csproj", "{2B789A2C-34CE-4CAB-9F48-73B490C4D41F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +49,14 @@ Global
 		{D0C4FFE1-5055-4406-BC46-3F415EB5AD21}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D0C4FFE1-5055-4406-BC46-3F415EB5AD21}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D0C4FFE1-5055-4406-BC46-3F415EB5AD21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34856894-2417-4E7D-BA12-07C6BF2941E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34856894-2417-4E7D-BA12-07C6BF2941E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34856894-2417-4E7D-BA12-07C6BF2941E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34856894-2417-4E7D-BA12-07C6BF2941E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B789A2C-34CE-4CAB-9F48-73B490C4D41F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B789A2C-34CE-4CAB-9F48-73B490C4D41F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B789A2C-34CE-4CAB-9F48-73B490C4D41F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B789A2C-34CE-4CAB-9F48-73B490C4D41F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

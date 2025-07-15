@@ -611,7 +611,7 @@ header.payload.(header+payload+secretkey)===>jwt token
 2) Add Authentication scheme into ur Program.cs
 we need to install following packages: 
 -Microsoft.AspNetCore.Authentication.JwtBearer
--System.IdentityModle.Tokens.Jwt
+-System.IdentityModel.Tokens.Jwt
 
 3) Add Authentication middleware for jWt bearer token and specify what are the parameters to be checked in token.
 
@@ -644,18 +644,6 @@ user----sends request after 2:10 pm-----> u will note the timing
 difference of time is 10 minutes for the user
 
 
-
-
-
-
-
-
-Session_End
-Session_Start
-
-
-
-
 ===========================Unit Testing======================
 //AAA
 
@@ -674,6 +662,31 @@ We need to install a package "Moq" and it gives u the Mock<T>
 
 
 
+============================Docker================================
+Docker Architecture:-
+1) Docker Daemon:- It runs on the host operating system. It is responsible for running containers to manage docker services.
+It communicates with other daemons.
+It offers various Docker objects such as images, containers, storage and so on.
+
+2) Docker client: follows client-server architecture with 3 main components, Client, Docker Host and Docker Registry
+
+-client uses commands to communicate Docket Daemon(server)
+-docker host:- provides environment to execute and run applications. contains images, containers and other docker objects.
+-docker registry:- manages and stores docker images
+	it is of two types:
+		Public registry: also called Docker hub
+		Private registry: it is used to share images within the enterprise.
+-docker images:- are read-only binary templates used to create containers
+
+-docker container:- image is the template and container is a running instance of the images
+
+----docker commands---
+docker build----> to create images from a Dockerfile(without extension).
+docker run----> This is create and run a docker container
+
+-------working with Dockerfile-------------
+-it is text document with no extension and contains commands that are used to assemble image.
+	docker build -f /path/to/Dockerfile
 
 
 
@@ -683,9 +696,16 @@ We need to install a package "Moq" and it gives u the Mock<T>
 
 
 
-NUnit
-MS Test
-xUnit
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -736,6 +756,118 @@ Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=SampleDB;Integrated Security=
 
 
 UI Controller------->Data Access component------>Other utility classes
+
+
+What is Kafka?
+It is message broker. 
+-Open-source application from Apache used for messaging in real-time streams of data among services.
+-Apache kafka is a publish-subscribe messaging system.
+-A messaging system lets u send messages between processes, application and servers.
+-Broadly , Apache Kafka is a software where "Topics" can be defined and further processed.
+
+Steps to install and Run Apache Kafka on Windows:
+Step1: Download the binary from https://kafka.apache.org/downloads
+
+Step2: Extract the file and move the folder to the directory where u wish to keep the files.
+Now go to the config inside the kafka folder and open zookeeper.properties file. 
+
+Step3: Copy the path against the field "dataDir" and add /zookeeper-data to the path. If kafka folder is c:\kafka then :
+	dataDir=c:\kafka\zookeeper-data
+
+Step4: Now in the same folder config open server.properties and scroll down to "log.dirs" and paste the path: To the path add /kafka-logs
+	log.dirs=c:\kafka\kafka-logs
+ 
+Step5: This completes the configuration of zookeeper and kafka server.
+
+Step6: Now open command prompt and change the directory to the kafka folder. First start zookeeper using the command given below:
+	.\bin\windows\zookeeper-server-start.bat .\config\zookeeper.properties
+
+Step7: Now open another command prompt and change the directory to the kafka folder. Run the kafka server using the command:
+	.\bin\windows\kafka-server-start.bat .\config\server.properties
+
+==================implementing Kafka in Producer-Consumer application=====================
+-First make sure kafka and zookeeper are running.
+-Create the topic over which producer and consumer will communicate the messages.
+  	.\kafka-topics.bat --create --topic topic3 --bootstrap-server localhost:9092 --partitions 3 --replication-factor 1
+
+--To list topics, use the command:
+	 .\kafka-topics.bat --list --bootstrap-server localhost:9092
+
+------------------producer and consumer code-------------------
+-install the package confluent.kafka to both the producer and consumer applications.
+
+
+=====================EntityFramework Core============================
+-ADO.NET is used for DataAccess layer i.e. repository layer for the application.
+EF Core --->Open-source ORM(Object-Relational Mapping) tool to work with database layer.
+ 
+Entity models in ADO.NET are created manually but in ORM tools like EF, out database tables will get mapped to model classes.
+
+There are two approaches:
+1) Database-First Approach:- In this database is already present and we generate the models using Scaffolding feature.
+
+a) Note: to get Scaffold commands, we need to install following packages:
+
+-Microsoft.EntityFrameworkCore.Tools
+-Microsoft.EntityFrameworkCore.SqlServer------>Database
+ 
+b) We need to run the command inside the Package Console Window: 
+Scaffold-DbContext "Data Source=(localdb\MSSQLDb);Intial Catalog=SampleDB;Integrated Security=True" -OutputDir Models -Table "employees"
+
+Two things gets generated:
+a) table mapped to the model class
+b) DbContext class which will be used for connecting to database
+
+c) Once DbContext and model classes are generated we can write CRUD operations using DbContext object
+
+d) configure the dependency injection for DbContext
+
+MVC controller-----inject EmpDbContext
+	builder.Services.AddDbContext<EmpDbContext>();
+
+or use Repository pattern
+MVC controller----->DataAccess Layer(interface)---->DAL class(DbContext)-----Database--->SQL
+builder.Services.AddScoped<IDalInterface,IDalImplementation>()
+
+
+Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=SampleDB;Integrated Security=True;Trust Server Certificate=False;
+
+
+
+2) Code-First Approach:- in this case, we don't use predefined database(optional it create if not already present), 
+a) we define all the models and DbContext class.
+
+b)Same packages to be installed plus one more as below: 
+-Microsoft.EntityFrameworkCore.Tools
+-Microsoft.EntityFrameworkCore.SqlServer------>Database
+-Microsoft.EntityFrameworkCore.Design
+
+c) We need to run the migration commands for generating C# code for database object creation.
+	Add-Migration "initial_create"    ---this will only generate C# code(no changes in DB)
+
+d) We need to update database using the migration command created above
+	Update-Database -----> migration code will execute and DB objects will get updated
+ 
+e) use this context for CRUD operation by using dependency injection
+	either direct using DbContext     builder.Service.AddDbConext<>()
+
+	or
+	use repository patter usin IDal and Dal classes
+					builder.Services.AddScoped<IDal,Dal>()
+f) Inject the dal and use it in the applications
+
+Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=master;Integrated Security=True;Connect Timeout=30;Encrypt=False;Trust Server Certificate=False;Application Intent=ReadWrite;Multi Subnet Failover=False
+
+
+
+
+Tables------->Model
+Models------->Tables
+
+
+
+
+
 
 
 

@@ -3,28 +3,32 @@
   "WorkspaceRootPath": "D:\\CEdge_Dotnet\\cedge_dotnet\\MicroservicesDemo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3C5D75F1-705B-41B7-8777-133DB82E6080}|DepartmentsAPI\\DepartmentsAPI.csproj|d:\\cedge_dotnet\\cedge_dotnet\\microservicesdemo\\departmentsapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{3C5D75F1-705B-41B7-8777-133DB82E6080}|DepartmentsAPI\\DepartmentsAPI.csproj|solutionrelative:departmentsapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{44D3184B-2E7D-4CD0-B9BE-74520C95B769}|ProductApi\\ProductApi.csproj|d:\\cedge_dotnet\\cedge_dotnet\\microservicesdemo\\productapi\\models\\consumerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44D3184B-2E7D-4CD0-B9BE-74520C95B769}|ProductApi\\ProductApi.csproj|solutionrelative:productapi\\models\\consumerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8BD2A579-58AC-457F-A796-A5FCF0B45E91}|EmployeesAPI\\EmployeesAPI.csproj|d:\\cedge_dotnet\\cedge_dotnet\\microservicesdemo\\employeesapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{8BD2A579-58AC-457F-A796-A5FCF0B45E91}|EmployeesAPI\\EmployeesAPI.csproj|solutionrelative:employeesapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{44D3184B-2E7D-4CD0-B9BE-74520C95B769}|ProductApi\\ProductApi.csproj|d:\\cedge_dotnet\\cedge_dotnet\\microservicesdemo\\productapi\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44D3184B-2E7D-4CD0-B9BE-74520C95B769}|ProductApi\\ProductApi.csproj|solutionrelative:productapi\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{63EDCA06-AFE4-4FE3-AAC8-2370C7A3C733}|APIGateWay\\APIGateWay.csproj|d:\\cedge_dotnet\\cedge_dotnet\\microservicesdemo\\apigateway\\ocelot.json||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{63EDCA06-AFE4-4FE3-AAC8-2370C7A3C733}|APIGateWay\\APIGateWay.csproj|solutionrelative:apigateway\\ocelot.json||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{2BCDDA94-3070-418F-BAB6-43C93C4FA347}|OrdersAPI\\OrdersAPI.csproj|d:\\cedge_dotnet\\cedge_dotnet\\microservicesdemo\\ordersapi\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BCDDA94-3070-418F-BAB6-43C93C4FA347}|OrdersAPI\\OrdersAPI.csproj|solutionrelative:ordersapi\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8BD2A579-58AC-457F-A796-A5FCF0B45E91}|EmployeesAPI\\EmployeesAPI.csproj|d:\\cedge_dotnet\\cedge_dotnet\\microservicesdemo\\employeesapi\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8BD2A579-58AC-457F-A796-A5FCF0B45E91}|EmployeesAPI\\EmployeesAPI.csproj|solutionrelative:employeesapi\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{44D3184B-2E7D-4CD0-B9BE-74520C95B769}|ProductApi\\ProductApi.csproj|d:\\cedge_dotnet\\cedge_dotnet\\microservicesdemo\\productapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44D3184B-2E7D-4CD0-B9BE-74520C95B769}|ProductApi\\ProductApi.csproj|solutionrelative:productapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8BD2A579-58AC-457F-A796-A5FCF0B45E91}|EmployeesAPI\\EmployeesAPI.csproj|d:\\cedge_dotnet\\cedge_dotnet\\microservicesdemo\\employeesapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{8BD2A579-58AC-457F-A796-A5FCF0B45E91}|EmployeesAPI\\EmployeesAPI.csproj|solutionrelative:employeesapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{44D3184B-2E7D-4CD0-B9BE-74520C95B769}|ProductApi\\ProductApi.csproj|d:\\cedge_dotnet\\cedge_dotnet\\microservicesdemo\\productapi\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44D3184B-2E7D-4CD0-B9BE-74520C95B769}|ProductApi\\ProductApi.csproj|solutionrelative:productapi\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{63EDCA06-AFE4-4FE3-AAC8-2370C7A3C733}|APIGateWay\\APIGateWay.csproj|d:\\cedge_dotnet\\cedge_dotnet\\microservicesdemo\\apigateway\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{63EDCA06-AFE4-4FE3-AAC8-2370C7A3C733}|APIGateWay\\APIGateWay.csproj|solutionrelative:apigateway\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{44D3184B-2E7D-4CD0-B9BE-74520C95B769}|ProductApi\\ProductApi.csproj|d:\\cedge_dotnet\\cedge_dotnet\\microservicesdemo\\productapi\\models\\orderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44D3184B-2E7D-4CD0-B9BE-74520C95B769}|ProductApi\\ProductApi.csproj|solutionrelative:productapi\\models\\orderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BCDDA94-3070-418F-BAB6-43C93C4FA347}|OrdersAPI\\OrdersAPI.csproj|d:\\cedge_dotnet\\cedge_dotnet\\microservicesdemo\\ordersapi\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BCDDA94-3070-418F-BAB6-43C93C4FA347}|OrdersAPI\\OrdersAPI.csproj|solutionrelative:ordersapi\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,80 +46,93 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\CEdge_Dotnet\\cedge_dotnet\\MicroservicesDemo\\DepartmentsAPI\\appsettings.json",
-              "RelativeDocumentMoniker": "DepartmentsAPI\\appsettings.json",
-              "ToolTip": "D:\\CEdge_Dotnet\\cedge_dotnet\\MicroservicesDemo\\DepartmentsAPI\\appsettings.json",
-              "RelativeToolTip": "DepartmentsAPI\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-07-08T11:24:35.611Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\CEdge_Dotnet\\cedge_dotnet\\MicroservicesDemo\\EmployeesAPI\\appsettings.json",
-              "RelativeDocumentMoniker": "EmployeesAPI\\appsettings.json",
-              "ToolTip": "D:\\CEdge_Dotnet\\cedge_dotnet\\MicroservicesDemo\\EmployeesAPI\\appsettings.json",
-              "RelativeToolTip": "EmployeesAPI\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-07-08T11:24:24.997Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "EmployeeController.cs",
-              "DocumentMoniker": "D:\\CEdge_Dotnet\\cedge_dotnet\\MicroservicesDemo\\EmployeesAPI\\Controllers\\EmployeeController.cs",
-              "RelativeDocumentMoniker": "EmployeesAPI\\Controllers\\EmployeeController.cs",
-              "ToolTip": "D:\\CEdge_Dotnet\\cedge_dotnet\\MicroservicesDemo\\EmployeesAPI\\Controllers\\EmployeeController.cs",
-              "RelativeToolTip": "EmployeesAPI\\Controllers\\EmployeeController.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAiwBEAAAAXAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\CEdge_Dotnet\\cedge_dotnet\\MicroservicesDemo\\ProductApi\\Program.cs",
+              "RelativeDocumentMoniker": "ProductApi\\Program.cs",
+              "ToolTip": "D:\\CEdge_Dotnet\\cedge_dotnet\\MicroservicesDemo\\ProductApi\\Program.cs",
+              "RelativeToolTip": "ProductApi\\Program.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAawBIAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-08T11:13:00.989Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "D:\\CEdge_Dotnet\\cedge_dotnet\\MicroservicesDemo\\EmployeesAPI\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "EmployeesAPI\\Properties\\launchSettings.json",
-              "ToolTip": "D:\\CEdge_Dotnet\\cedge_dotnet\\MicroservicesDemo\\EmployeesAPI\\Properties\\launchSettings.json",
-              "RelativeToolTip": "EmployeesAPI\\Properties\\launchSettings.json",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAABQAAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-07-08T11:06:56.881Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ocelot.json",
-              "DocumentMoniker": "D:\\CEdge_Dotnet\\cedge_dotnet\\MicroservicesDemo\\APIGateWay\\ocelot.json",
-              "RelativeDocumentMoniker": "APIGateWay\\ocelot.json",
-              "ToolTip": "D:\\CEdge_Dotnet\\cedge_dotnet\\MicroservicesDemo\\APIGateWay\\ocelot.json",
-              "RelativeToolTip": "APIGateWay\\ocelot.json",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAABAAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-07-08T10:26:13.912Z",
+              "WhenOpened": "2025-07-14T12:10:18.097Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\CEdge_Dotnet\\cedge_dotnet\\MicroservicesDemo\\APIGateWay\\Program.cs",
-              "RelativeDocumentMoniker": "APIGateWay\\Program.cs",
-              "ToolTip": "D:\\CEdge_Dotnet\\cedge_dotnet\\MicroservicesDemo\\APIGateWay\\Program.cs",
-              "RelativeToolTip": "APIGateWay\\Program.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAywBIAAAAAAAAAAAAAAA==",
+              "Title": "OrderDTO.cs",
+              "DocumentMoniker": "D:\\CEdge_Dotnet\\cedge_dotnet\\MicroservicesDemo\\ProductApi\\Models\\OrderDTO.cs",
+              "RelativeDocumentMoniker": "ProductApi\\Models\\OrderDTO.cs",
+              "ToolTip": "D:\\CEdge_Dotnet\\cedge_dotnet\\MicroservicesDemo\\ProductApi\\Models\\OrderDTO.cs",
+              "RelativeToolTip": "ProductApi\\Models\\OrderDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-08T10:22:43.523Z",
+              "WhenOpened": "2025-07-14T11:53:31.522Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ConsumerService.cs",
+              "DocumentMoniker": "D:\\CEdge_Dotnet\\cedge_dotnet\\MicroservicesDemo\\ProductApi\\Models\\ConsumerService.cs",
+              "RelativeDocumentMoniker": "ProductApi\\Models\\ConsumerService.cs",
+              "ToolTip": "D:\\CEdge_Dotnet\\cedge_dotnet\\MicroservicesDemo\\ProductApi\\Models\\ConsumerService.cs",
+              "RelativeToolTip": "ProductApi\\Models\\ConsumerService.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAqwBYAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-14T11:48:34.469Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "D:\\CEdge_Dotnet\\cedge_dotnet\\MicroservicesDemo\\ProductApi\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "ProductApi\\Controllers\\ProductsController.cs",
+              "ToolTip": "D:\\CEdge_Dotnet\\cedge_dotnet\\MicroservicesDemo\\ProductApi\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "ProductApi\\Controllers\\ProductsController.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAYwAkAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-14T11:46:42.322Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Product.cs",
+              "DocumentMoniker": "D:\\CEdge_Dotnet\\cedge_dotnet\\MicroservicesDemo\\ProductApi\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "ProductApi\\Models\\Product.cs",
+              "ToolTip": "D:\\CEdge_Dotnet\\cedge_dotnet\\MicroservicesDemo\\ProductApi\\Models\\Product.cs",
+              "RelativeToolTip": "ProductApi\\Models\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-14T11:43:59.524Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "OrdersController.cs",
+              "DocumentMoniker": "D:\\CEdge_Dotnet\\cedge_dotnet\\MicroservicesDemo\\OrdersAPI\\Controllers\\OrdersController.cs",
+              "RelativeDocumentMoniker": "OrdersAPI\\Controllers\\OrdersController.cs",
+              "ToolTip": "D:\\CEdge_Dotnet\\cedge_dotnet\\MicroservicesDemo\\OrdersAPI\\Controllers\\OrdersController.cs",
+              "RelativeToolTip": "OrdersAPI\\Controllers\\OrdersController.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAzwBoAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-14T11:33:02.546Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Order.cs",
+              "DocumentMoniker": "D:\\CEdge_Dotnet\\cedge_dotnet\\MicroservicesDemo\\OrdersAPI\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "OrdersAPI\\Models\\Order.cs",
+              "ToolTip": "D:\\CEdge_Dotnet\\cedge_dotnet\\MicroservicesDemo\\OrdersAPI\\Models\\Order.cs",
+              "RelativeToolTip": "OrdersAPI\\Models\\Order.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-14T11:31:17.499Z",
               "EditorCaption": ""
             }
           ]

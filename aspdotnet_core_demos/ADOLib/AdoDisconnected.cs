@@ -158,5 +158,10 @@ namespace ADOLib
                 throw new Exception("Record not found");
             }
         }
+
+        public Employee GetEmployeeByEcodeAndDeptid(int ecode, int deptid)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

@@ -1,6 +1,8 @@
 
+using Microsoft.IdentityModel.Tokens;
 using Ocelot.DependencyInjection;
 using Ocelot.Middleware;
+using System.Text;
 
 namespace APIGateWay
 {
@@ -19,6 +21,25 @@ namespace APIGateWay
 
             builder.Configuration.AddJsonFile("ocelot.json");
             builder.Services.AddOcelot();
+
+            var secretKey = builder.Configuration["JWT:Key"];
+
+            builder.Services.AddAuthentication("Bearer")
+            .AddJwtBearer("Bearer", options =>
+             {
+                      options.TokenValidationParameters = new TokenValidationParameters
+                      {
+                          ValidateIssuer = true,
+                          ValidateAudience = true,
+                          ValidateLifetime = true,
+                          ValidateIssuerSigningKey = true,
+
+                          ValidIssuer = builder.Configuration["JWT:Issuer"],
+                          ValidAudience = builder.Configuration["JWT:Audience"],
+                          IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(secretKey))
+                      };
+                  });          
+
 
             var app = builder.Build();
 

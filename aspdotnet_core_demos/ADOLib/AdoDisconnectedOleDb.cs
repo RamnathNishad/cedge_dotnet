@@ -98,5 +98,10 @@ namespace ADOLib
         {
             throw new NotImplementedException();
         }
+
+        public Employee GetEmployeeByEcodeAndDeptid(int ecode, int deptid)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
